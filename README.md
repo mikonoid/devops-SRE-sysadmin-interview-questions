@@ -23,7 +23,45 @@ Comparison: https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distri
   
 </b></details>
 
+<details>
+<summary>Linux boot process: from power up to login promt</summary><br><b>
+Explanation: TODO
+</b></details>
 
+<details>
+<summary>What is inode?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>Memory types in Linux</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is sticky bit?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>Memory types in Linux</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summaryWhat is Virtual memory?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is zombie process?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is the difference between hardlinks and symlinks?</summary><br><b>
+Explanation: TODO
+</b></details>
 
 ## Networking and Security
 
