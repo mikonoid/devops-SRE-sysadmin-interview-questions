@@ -161,7 +161,7 @@ Explanation: TODO
 </b></details>
 
 <details>
-<summaryHow to check route table in Linux?</summary><br><b>
+<summary>How to check route table in Linux?</summary><br><b>
 Explanation: TODO
 </b></details>
 
