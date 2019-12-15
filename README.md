@@ -109,7 +109,7 @@ Explanation: TODO
 </b></details>
 
 <details>
-<summary>Imagine you executed command '''chmod -x /bin/chmod'''. How to fix this? </summary><br><b>
+<summary>Imagine you executed command `chmod -x /bin/chmod`. How to fix this? </summary><br><b>
 Explanation: TODO
 </b></details>
 
