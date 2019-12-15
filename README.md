@@ -44,7 +44,7 @@ Explanation: TODO
 </b></details>
 
 <details>
-<summaryWhat is Virtual memory?</summary><br><b>
+<summary>What is Virtual memory?</summary><br><b>
 Explanation: TODO
 </b></details>
 
@@ -52,7 +52,6 @@ Explanation: TODO
 <summary>What is a swap space?</summary><br><b>
 Explanation: TODO
 </b></details>
-
 
 <details>
 <summary>What is zombie process?</summary><br><b>
