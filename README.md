@@ -125,6 +125,46 @@ Explanation: TODO
 
 ## Networking and Security
 
+<details>
+<summary>What is NAT?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is VLAN?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is ARP?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary> How many layers are there under TCP/IP?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>EXplain TCP 3-way handshake proccess</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is SSH and how does it work?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>Explain DNS records: SOA, PTR, A, MX, and CNAME</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summaryHow to check route table in Linux?</summary><br><b>
+Explanation: TODO
+</b></details>
+
 ## Programming
 
 ## Databases
