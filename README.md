@@ -44,14 +44,15 @@ Explanation: TODO
 </b></details>
 
 <details>
-<summary>Memory types in Linux</summary><br><b>
+<summaryWhat is Virtual memory?</summary><br><b>
 Explanation: TODO
 </b></details>
 
 <details>
-<summaryWhat is Virtual memory?</summary><br><b>
+<summary>What is a swap space?</summary><br><b>
 Explanation: TODO
 </b></details>
+
 
 <details>
 <summary>What is zombie process?</summary><br><b>
@@ -59,7 +60,57 @@ Explanation: TODO
 </b></details>
 
 <details>
+<summary>File types in Linux</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>Linux Process Monitor(TOP). Explain all information from top</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
 <summary>What is the difference between hardlinks and symlinks?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What happens if you delete the root user?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is a chroot?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is OOM and OOMkiller? How it OOM killer is working</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is 'nohup' used for?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary> What can you do to restore deleted bash script(script is running but deleted by error)?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary> What is RAID?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What happens when a hardlink is removed?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>Imagine you executed command '''chmod -x /bin/chmod'''. How to fix this? </summary><br><b>
 Explanation: TODO
 </b></details>
 
