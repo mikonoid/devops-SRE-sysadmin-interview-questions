@@ -64,6 +64,11 @@ Explanation: TODO
 </b></details>
 
 <details>
+<summary> What is proc filesystem?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
 <summary>Linux Process Monitor(TOP). Explain all information from top</summary><br><b>
 Explanation: TODO
 </b></details>
@@ -85,6 +90,11 @@ Explanation: TODO
 
 <details>
 <summary>What is OOM and OOMkiller? How it OOM killer is working</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is kernel panic?</summary><br><b>
 Explanation: TODO
 </b></details>
 
