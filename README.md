@@ -324,5 +324,12 @@ Explanation: TODO
 
 ## Books and courses
 
+* Brendan Gregg http://www.brendangregg.com/blog/index.html
+* Systems Performance http://www.brendangregg.com/sysperfbook.html
+* The Phoenix project https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290/
+* SRE https://landing.google.com/sre/books/
+* Linux System Administration Handbook 5th by Evi Nemeth
+* The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations
+
 
 
