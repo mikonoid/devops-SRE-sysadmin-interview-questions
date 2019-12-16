@@ -140,15 +140,15 @@ Explanation:
   
   Solution1:
   
- ```cp /bin/cp /tmp/chmod
-  cp /bin/chmod /tmp/chmod
-  ./tmp/chmod 755 /bin/chmod```
+    ``` cp /bin/cp /tmp/chmod
+     cp /bin/chmod /tmp/chmod
+     ./tmp/chmod 755 /bin/chmod ``` 
   
   Solution2:
-  `perl -e 'chmod(0755, "chmod")'`
+ ` perl -e 'chmod(0755, "chmod")`
   
   Solution3:
-  `/lib/ld-linux.so.2 /bin/chmod 755 /bin/chmod `
+ ` /lib/ld-linux.so.2 /bin/chmod 755 /bin/chmod`
   
 </b></details>
 
