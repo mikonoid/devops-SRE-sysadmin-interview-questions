@@ -277,7 +277,7 @@ Explanation:
 
 ### Python
 <details>
-<summary>Python for sysadmins<br><b>
+<summary>Python for sysadmins</summary><br><b>
 Explanation:
   * https://realpython.com/
   * https://python-for-system-administrators.readthedocs.io/en/latest/
