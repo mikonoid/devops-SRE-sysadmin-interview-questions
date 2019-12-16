@@ -139,10 +139,12 @@ Explanation: TODO
 Explanation: 
   
   Solution1:
+  ```
+  cp /bin/cp /tmp/chmod
+  cp /bin/chmod /tmp/chmod
+  ./tmp/chmod 755 /bin/chmod
   
-    ``` cp /bin/cp /tmp/chmod
-     cp /bin/chmod /tmp/chmod
-     ./tmp/chmod 755 /bin/chmod ``` 
+  ```
   
   Solution2:
  ` perl -e 'chmod(0755, "chmod")`
