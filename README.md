@@ -309,7 +309,89 @@ Explanation: TODO
 
 ## Containers
 
+<details>
+<summary>What is LXC?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is Docker?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What are the advantages of using Docker container?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>Docker RUN vs CMD vs ENTRYPOINT</summary><br><b>
+Explanation: https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
+</b></details>
+
+<details>
+<summary>What is Docker registry?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is Docker volume?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is docker namespaces?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is docker multistage build? Create one example</summary><br><b>
+Explanation: TODO
+</b></details>
+
 ## Kubernetes
+
+<details>
+<summary>Why we need container orchestration?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is kubernetes?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What are the features of Kubernetes?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is kubelet?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is kubectl?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is CNI?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is headless service?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What are the units of CPU and memory in POD definition?</summary><br><b>
+Explanation: 
+  CPU is in milicores and memory in bytes
+  https://www.noqcks.io/notes/2018/02/03/understanding-kubernetes-resources/
+</b></details>
 
 ## DEVOPS
 
