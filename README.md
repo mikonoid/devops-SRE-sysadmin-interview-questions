@@ -231,6 +231,46 @@ Explanation: TODO
 
 ## Programming
 
+### BASH
+
+<details>
+<summary>How to check if the previous command was run successfully?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>What is function? How to write a function?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>Loops in BASH</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary> How would you compare the strings in a bash script?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary> How to print all array elements and their indexes?</summary><br><b>
+Explanation:
+  ```
+  #!/bin/sh
+  array=("A" "B" "C" "X" )
+  echo ${array[0]}
+  ```  
+</b></details>
+
+### Python
+<details>
+<summary>Python for sysadmins<br><b>
+Explanation:
+  * https://realpython.com/
+  * https://python-for-system-administrators.readthedocs.io/en/latest/
+</b></details>
+
 ## Databases
 
 ## Version Control System (GIT) 
