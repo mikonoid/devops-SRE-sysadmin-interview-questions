@@ -147,10 +147,16 @@ Explanation:
   ```
   
   Solution2:
- ` perl -e 'chmod(0755, "chmod")`
+  ```
+  perl -e 'chmod(0755, "chmod")`
+  
+  ```
   
   Solution3:
- ` /lib/ld-linux.so.2 /bin/chmod 755 /bin/chmod`
+  ```
+ /lib/ld-linux.so.2 /bin/chmod 755 /bin/chmod
+ 
+ ```
   
 </b></details>
 
