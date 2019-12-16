@@ -56,9 +56,9 @@ Explanation: TODO
 <details>
 <summary>What is zombie process?</summary><br><b>
 Explanation: 
-  https://en.wikipedia.org/wiki/Zombie_process
-  https://www.geeksforgeeks.org/zombie-processes-prevention/
-  https://stackoverflow.com/questions/16944886/how-to-kill-zombie-process
+  * https://en.wikipedia.org/wiki/Zombie_process
+  * https://www.geeksforgeeks.org/zombie-processes-prevention/
+  * https://stackoverflow.com/questions/16944886/how-to-kill-zombie-process
 </b></details>
 
 <details>
@@ -88,8 +88,8 @@ Explanation:
 <details>
 <summary>What happens if you delete the root user?</summary><br><b>
 Explanation: 
-  In most cases you will get unbootable system
-  https://askubuntu.com/questions/962660/what-happens-if-you-delete-the-root-user
+  * In most cases you will get unbootable system
+  * https://askubuntu.com/questions/962660/what-happens-if-you-delete-the-root-user
 </b></details>
 
 <details>
@@ -101,15 +101,15 @@ Explanation:
 <details>
 <summary>What is OOM and OOMkiller? How it OOM killer is working</summary><br><b>
 Explanation:
-  https://dev.to/rrampage/surviving-the-linux-oom-killer-2ki9
-  https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/
+  * https://dev.to/rrampage/surviving-the-linux-oom-killer-2ki9
+  * https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/
 </b></details>
 
 <details>
 <summary>What is kernel panic?</summary><br><b>
 Explanation: 
-  https://www.linuxjournal.com/content/oops-debugging-kernel-panics-0
-  http://www.linuxandubuntu.com/home/things-to-know-about-linux-kernel-panic
+  * https://www.linuxjournal.com/content/oops-debugging-kernel-panics-0
+  * http://www.linuxandubuntu.com/home/things-to-know-about-linux-kernel-panic
 </b></details>
 
 <details>
