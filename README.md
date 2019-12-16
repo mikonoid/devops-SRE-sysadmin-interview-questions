@@ -1,5 +1,5 @@
 # Devops/SRE interview preparation questions
-This repo is agregated guide for preparation to Devops/SRE ingineer interview 
+This repo is agregated guide for preparation to Devops/SRE engineer interview 
 
 ## Linux 
 
@@ -25,32 +25,43 @@ Comparison: https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distri
 
 <details>
 <summary>Linux boot process: from power up to login promt</summary><br><b>
-Explanation: TODO
+Explanation: 
+  * BIOS
+  * MBR
+  * GRUB
+  * Kernel
+  * Init
+  * Runlevel
+  https://www.thegeekstuff.com/2011/02/linux-boot-process/
 </b></details>
 
 <details>
 <summary>What is inode?</summary><br><b>
-Explanation: TODO
+Explanation: https://linoxide.com/linux-command/linux-inode/
 </b></details>
 
 <details>
 <summary>Memory types in Linux</summary><br><b>
-Explanation: TODO
+Explanation: https://linux-audit.com/understanding-memory-information-on-linux-systems/
 </b></details>
 
 <details>
 <summary>What is sticky bit?</summary><br><b>
-Explanation: TODO
+Explanation:
+  * https://en.wikipedia.org/wiki/Sticky_bit
+  * https://www.geeksforgeeks.org/setuid-setgid-and-sticky-bits-in-linux-file-permissions/
 </b></details>
 
 <details>
 <summary>What is Virtual memory?</summary><br><b>
-Explanation: TODO
+Explanation: 
+  * https://serverfault.com/questions/138427/what-does-virtual-memory-size-in-top-mean
+  * https://elinux.org/images/4/4c/Ott.pdf
 </b></details>
 
 <details>
 <summary>What is a swap space?</summary><br><b>
-Explanation: TODO
+Explanation: https://itsfoss.com/create-swap-file-linux/
 </b></details>
 
 <details>
@@ -222,7 +233,27 @@ Explanation: TODO
 
 ## Databases
 
-## GIT 
+## Version Control System (GIT) 
+
+<details>
+<summary>What is GIT?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary> What are the benefits of using GIT?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>How to reset last commit?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>Describe a dev/test/production workflow using GIT</summary><br><b>
+Explanation: TODO
+</b></details>
 
 ## Containers
 
