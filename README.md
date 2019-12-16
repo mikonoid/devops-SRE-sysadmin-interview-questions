@@ -256,11 +256,14 @@ Explanation: TODO
 <details>
 <summary> How to print all array elements and their indexes?</summary><br><b>
 Explanation:
-  ```
+  
+  ```  
   #!/bin/sh
   array=("A" "B" "C" "X" )
-  echo ${array[0]}
-  ```  
+  echo ${array[0]} 
+  
+  ```
+ 
 </b></details>
 
 ### Python
