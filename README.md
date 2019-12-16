@@ -137,7 +137,9 @@ Explanation: TODO
 <details>
 <summary>Imagine you executed command `chmod -x /bin/chmod`. How to fix this? </summary><br><b>
 Explanation: 
+  
   Solution1:
+  
  `cp /bin/cp /tmp/chmod
   cp /bin/chmod /tmp/chmod
   ./tmp/chmod 755 /bin/chmod`
