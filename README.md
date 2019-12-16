@@ -266,6 +266,15 @@ Explanation:
  
 </b></details>
 
+
+<details>
+<summary>How to debug a shell script ?</summary><br><b>
+Explanation:
+  Option `-x`
+  or `-nv`
+</b></details>
+
+
 ### Python
 <details>
 <summary>Python for sysadmins<br><b>
