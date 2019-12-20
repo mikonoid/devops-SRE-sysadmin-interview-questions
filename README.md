@@ -11,13 +11,14 @@ Explanation: https://en.wikipedia.org/wiki/Linux_Standard_Base
 <details>
 <summary>Popular Linux Distributions</summary><br><b>
 The most popular linux distrs:
-  Ubuntu  
-  Centos  
-  Fedora  
-  Debian  
-  OpenSuse  
-  ArchLinux  
-  Slackware  
+  
+  * Ubuntu  
+  * Centos  
+  * Fedora  
+  * Debian  
+  * OpenSuse  
+  * ArchLinux  
+  * Slackware  
   
 Comparison: https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/
   
@@ -26,12 +27,14 @@ Comparison: https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distri
 <details>
 <summary>Linux boot process: from power up to login promt</summary><br><b>
 Explanation: 
+  
   * BIOS
   * MBR
   * GRUB
   * Kernel
   * Init
   * Runlevel
+  
   https://www.thegeekstuff.com/2011/02/linux-boot-process/
 </b></details>
 
