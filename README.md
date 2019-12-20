@@ -297,27 +297,51 @@ Explanation:
 ### BASH
 
 <details>
-<summary>How to check if the previous command was run successfully?</summary><br><b>
+<summary>How to check if the last command was run successfully?</summary><br><b>
 Explanation: 
-  TODO
+  
+  `echo $?` if returns 0 that last command executed successfully
+  
 </b></details>
 
 <details>
 <summary>What is function? How to write a function?</summary><br><b>
 Explanation: 
-  TODO
+  
+  https://linuxize.com/post/bash-functions/
 </b></details>
 
 <details>
 <summary>Loops in BASH</summary><br><b>
 Explanation: 
-  TODO
+  
+  https://www.tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html
 </b></details>
 
 <details>
-<summary> How would you compare the strings in a bash script?</summary><br><b>
+<summary> How would you compare two strings in a bash script?</summary><br><b>
 Explanation: 
-  TODO
+  Case1:
+  
+  ```
+  #!/bin/bash
+
+VAR1="string1"
+VAR2="string333"
+
+if [ "$VAR1" = "$VAR2" ]; then
+    echo "Strings are equal."
+else
+    echo "Strings are not equal."
+fi
+```
+  Case2: 
+  
+  ```
+  [[ "string1" == "string2" ]] && echo "Equal" || echo "Not equal"
+
+```
+  
 </b></details>
 
 <details>
