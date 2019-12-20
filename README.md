@@ -354,6 +354,42 @@ Explanation:
 
 ## Databases
 
+<details>
+<summary>What is SQL?</summary><br><b>
+Explanation: 
+  TODO
+</b></details>
+
+<details>
+<summary>SQL vs NoSQL. Explain benefits of both</summary><br><b>
+Explanation: 
+  TODO
+</b></details>
+
+<details>
+<summary>What are tables and field?</summary><br><b>
+Explanation: 
+  TODO
+</b></details>
+
+<details>
+<summary>What is an index?</summary><br><b>
+Explanation: 
+  TODO
+</b></details>
+
+<details>
+<summary>What is primary key?</summary><br><b>
+Explanation: 
+  TODO
+</b></details>
+
+<details>
+<summary>What is database recplication?</summary><br><b>
+Explanation: 
+  TODO
+</b></details>
+
 ## Version Control System (GIT) 
 
 <details>
@@ -364,6 +400,24 @@ Explanation:
 
 <details>
 <summary> What are the benefits of using GIT?</summary><br><b>
+Explanation:
+  TODO
+</b></details>
+
+<details>
+<summary>What is the difference between `git pull` and `git fetch` ?</summary><br><b>
+Explanation:
+  TODO
+</b></details>
+
+<details>
+<summary>What is the difference between `git reset` and `git revert` ?</summary><br><b>
+Explanation:
+  TODO
+</b></details>
+
+<details>
+<summary>What is `git rebase` ?</summary><br><b>
 Explanation:
   TODO
 </b></details>
@@ -405,6 +459,12 @@ Explanation:
 Explanation:
   
   https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
+</b></details>
+
+<details>
+<summary>What is the difference between ADD and COPY in Dockerfile?</summary><br><b>
+Explanation: 
+  TODO
 </b></details>
 
 <details>
