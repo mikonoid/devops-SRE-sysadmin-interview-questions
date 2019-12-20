@@ -367,6 +367,11 @@ Explanation: TODO
 </b></details>
 
 <details>
+<summary>What is POD?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
 <summary>What is kubelet?</summary><br><b>
 Explanation: TODO
 </b></details>
@@ -389,8 +394,18 @@ Explanation: TODO
 <details>
 <summary>What are the units of CPU and memory in POD definition?</summary><br><b>
 Explanation: 
-  CPU is in milicores and memory in bytes
-  https://www.noqcks.io/notes/2018/02/03/understanding-kubernetes-resources/
+  * CPU is in milicores and memory in bytes
+  * https://www.noqcks.io/notes/2018/02/03/understanding-kubernetes-resources/
+</b></details>
+
+<details>
+<summary>How to deploy stateful application in Kubernetes?</summary><br><b>
+Explanation: TODO
+</b></details>
+
+<details>
+<summary>How to expose Kubernetes service?</summary><br><b>
+Explanation: TODO
 </b></details>
 
 ## DEVOPS
