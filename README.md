@@ -155,13 +155,15 @@ Explanation:
 <details>
 <summary> What is RAID?</summary><br><b>
 Explanation: 
-  TODO
+  
+  https://en.wikipedia.org/wiki/Standard_RAID_levels
 </b></details>
 
 <details>
 <summary>What happens when a hardlink is removed?</summary><br><b>
 Explanation: 
-  TODO
+  
+  The file will be deleted if you delete only the last hardlink to this file. 
 </b></details>
 
 <details>
@@ -197,67 +199,98 @@ Explanation:
   http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html
 </b></details>
 
+<details>
+<summary>What are cgroups?</summary><br><b>
+Explanation:
+  
+  https://www.linuxjournal.com/content/everything-you-need-know-about-linux-containers-part-i-linux-control-groups-and-process
+</b></details>
+
 ## Networking and Security
 
 <details>
 <summary>What is NAT?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://www.geeksforgeeks.org/network-address-translation-nat/
+  * https://www.comptia.org/content/guides/what-is-network-address-translation
 </b></details>
 
 <details>
 <summary>What is VLAN?</summary><br><b>
 Explanation:
-  TODO
+  
+  https://study-ccna.com/what-is-a-vlan/
 </b></details>
 
 <details>
 <summary>What is ARP?</summary><br><b>
 Explanation: 
-  TODO
+  
+  Address Resolution Protocol. 
+  https://en.wikipedia.org/wiki/Address_Resolution_Protocol
 </b></details>
 
 <details>
-<summary> How many layers are there under TCP/IP?</summary><br><b>
+<summary> How many layers are there under TCP/IP? Compare OSI and TCP/IP</summary><br><b>
 Explanation: 
-  TODO
+  
+  https://techdifferences.com/difference-between-tcp-ip-and-osi-model.html
 </b></details>
 
 <details>
 <summary>EXplain TCP 3-way handshake proccess</summary><br><b>
 Explanation: 
-  TODO
+  
+  https://www.geeksforgeeks.org/tcp-3-way-handshake-process/
 </b></details>
 
 <details>
 <summary>What is SSH and how does it work?</summary><br><b>
 Explanation:
-  TODO
+  
+  https://www.ssh.com/ssh/command
 </b></details>
 
 <details>
 <summary>Explain DNS records: SOA, PTR, A, MX, and CNAME</summary><br><b>
 Explanation: 
-  TODO
+  
+  https://www.presslabs.com/how-to/dns-records/
 </b></details>
 
 <details>
 <summary>How to check route table in Linux?</summary><br><b>
 Explanation: 
-  TODO
+  
+  `netstat -rn`
+  
+  `route -n`
+  
+  `ip route list`
 </b></details>
 
 <details>
 <summary>Server1 can't reach to Server2. Describe possible reasons</summary><br><b>
 Explanation: 
-  TODO
+  
+  * Application layer: 
+    Check if servers are correctly configured and services up and running
+  * Transport layer:
+    Check ports, check ping from server to server
+  * Network layer:
+    Check firewall and networking setting. Also check routes, dns and ARP tables.
 </b></details>
 
 <details>
 <summary>How to check all of open ports on server?</summary><br><b>
 Explanation:
-  TODO
+  
+  * nmap - if you need check all ports for remote server
+  * netstat - for localhost
 </b></details>
+
+
 
 ## Programming
 
@@ -522,6 +555,13 @@ Explanation:
   
   https://semaphoreci.com/cicd
   https://www.redhat.com/en/topics/devops/what-is-ci-cd
+</b></details>
+
+<details>
+<summary>Describe deployment strategies</summary><br><b>
+Explanation: 
+  
+  https://thenewstack.io/deployment-strategies
 </b></details>
 
 <details>
