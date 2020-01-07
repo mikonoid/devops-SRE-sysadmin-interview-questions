@@ -487,19 +487,25 @@ Explanation:
 <details>
 <summary>What is LXC?</summary><br><b>
 Explanation: 
+  
   * https://linuxcontainers.org/lxc/introduction/
+  
 </b></details>
 
 <details>
 <summary>What is Docker?</summary><br><b>
 Explanation: 
+  
   * https://opensource.com/resources/what-docker
+  
 </b></details>
 
 <details>
 <summary>What are the advantages of using Docker container?</summary><br><b>
 Explanation: 
+  
   * https://dzone.com/articles/top-10-benefits-of-using-docker
+  
 </b></details>
 
 <details>
