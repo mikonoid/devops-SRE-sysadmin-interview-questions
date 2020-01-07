@@ -419,8 +419,10 @@ Explanation:
 <details>
 <summary>What is GIT?</summary><br><b>
 Explanation: 
+  
   * https://git-scm.com/book/en/v2/Getting-Started-What-is-Git
   * https://git-scm.com/book/en/v2/Getting-Started-What-is-Git
+  
 </b></details>
 
 <details>
@@ -485,56 +487,65 @@ Explanation:
 <details>
 <summary>What is LXC?</summary><br><b>
 Explanation: 
-  TODO
+  * https://linuxcontainers.org/lxc/introduction/
 </b></details>
 
 <details>
 <summary>What is Docker?</summary><br><b>
 Explanation: 
-  TODO
+  * https://opensource.com/resources/what-docker
 </b></details>
 
 <details>
 <summary>What are the advantages of using Docker container?</summary><br><b>
 Explanation: 
-  TODO
+  * https://dzone.com/articles/top-10-benefits-of-using-docker
 </b></details>
 
 <details>
 <summary>Docker RUN vs CMD vs ENTRYPOINT</summary><br><b>
 Explanation:
   
-  https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
+  * https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
+  
 </b></details>
 
 <details>
 <summary>What is the difference between ADD and COPY in Dockerfile?</summary><br><b>
 Explanation: 
-  TODO
+  * https://dev.to/lasatadevi/docker-cmd-vs-entrypoint-34e0
 </b></details>
 
 <details>
 <summary>What is Docker registry?</summary><br><b>
 Explanation: 
-  TODO
+  
+  Storage for docker images https://docs.docker.com/registry/
+  
 </b></details>
 
 <details>
 <summary>What is Docker volume?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://docs.docker.com/storage/volumes/
+  
 </b></details>
 
 <details>
 <summary>What is docker namespaces?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://success.docker.com/article/introduction-to-user-namespaces-in-docker-engine
+  
 </b></details>
 
 <details>
 <summary>What is docker multistage build? Create one example</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://dev.to/brpaz/using-docker-multi-stage-builds-during-development-35bc
+  
 </b></details>
 
 ## Kubernetes
