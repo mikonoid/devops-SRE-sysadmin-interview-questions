@@ -426,45 +426,58 @@ Explanation:
 <details>
 <summary> What are the benefits of using GIT?</summary><br><b>
 Explanation:
+  
   * Documentation
   * Markdown
   * Fully Distributed
   * Simplicity
   * Branching model
   * open source
+  
 </b></details>
 
 <details>
 <summary>What is the difference between `git pull` and `git fetch` ?</summary><br><b>
 Explanation:
-  TODO
+  
+  * https://guide.freecodecamp.org/miscellaneous/git-pull-vs-git-fetch/
+  
 </b></details>
 
 <details>
 <summary>What is the difference between `git reset` and `git revert` ?</summary><br><b>
 Explanation:
-  * https://guide.freecodecamp.org/miscellaneous/git-pull-vs-git-fetch/
+  
+  * https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset
+  
 </b></details>
 
 <details>
 <summary>What is `git rebase` ?</summary><br><b>
 Explanation:
+  
   * https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
+  
 </b></details>
 
 <details>
 <summary>How to reset last commit?</summary><br><b>
 Explanation: 
-  `git reset --hard HEAD~1` - not a true way cuz you will lost all changes
-  `git revert <commit-id>` - good way
-  for more https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git
+  
+ * `git reset --hard HEAD~1` - not a true way cuz you will lost all changes
+ * `git revert <commit-id>` - good way
+ 
+ for more https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git
+
 </b></details>
 
 <details>
 <summary>Describe a dev/test/production workflow using GIT</summary><br><b>
 Explanation: 
+  
   * https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf
   * https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+  
 </b></details>
 
 ## Containers
