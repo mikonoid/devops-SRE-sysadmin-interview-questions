@@ -381,37 +381,41 @@ Explanation:
 <details>
 <summary>What is SQL?</summary><br><b>
 Explanation: 
-  TODO
+  * http://www.sqlcourse.com/intro.html
 </b></details>
 
 <details>
 <summary>SQL vs NoSQL. Explain benefits of both</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://www.youtube.com/watch?v=ZS_kXvOeQ5Y
+  * https://www.geeksforgeeks.org/difference-between-sql-and-nosql/
 </b></details>
 
 <details>
 <summary>What are tables and field?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://intellipaat.com/blog/tutorial/sql-tutorial/tables-in-sql/
 </b></details>
 
 <details>
 <summary>What is an index?</summary><br><b>
 Explanation: 
-  TODO
+  * https://www.tutorialspoint.com/sql/sql-indexes.htm
 </b></details>
 
 <details>
 <summary>What is primary key?</summary><br><b>
 Explanation: 
-  TODO
+  * https://www.w3schools.com/sql/sql_primarykey.ASP
 </b></details>
 
 <details>
 <summary>What is database recplication?</summary><br><b>
 Explanation: 
-  TODO
+
+  * https://www.geeksforgeeks.org/data-replication-in-dbms/
 </b></details>
 
 ## Version Control System (GIT) 
@@ -559,7 +563,8 @@ Explanation:
 <details>
 <summary>Why we need container orchestration?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://opensource.com/life/16/9/containing-container-chaos-kubernetes
 </b></details>
 
 <details>
@@ -571,37 +576,44 @@ Explanation:
 <details>
 <summary>What are the features of Kubernetes?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+  * Kubernetes in 5 minutes https://www.youtube.com/watch?v=PH-2FfFD2PU
 </b></details>
 
 <details>
 <summary>What is POD?</summary><br><b>
 Explanation:
-  TODO
+  
+  * https://kubernetes.io/docs/concepts/workloads/pods/pod/
 </b></details>
 
 <details>
 <summary>What is kubelet?</summary><br><b>
 Explanation: 
-  TODO
+  * Kubelet - agent on a kubernetes cluster’s node that takes care of all activity on that node
+  * https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/
 </b></details>
 
 <details>
 <summary>What is kubectl?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://kubernetes.io/docs/reference/kubectl/overview/
 </b></details>
 
 <details>
 <summary>What is CNI?</summary><br><b>
 Explanation:
-  TODO
+  
+  * https://www.dasblinkenlichten.com/understanding-cni-container-networking-interface/
 </b></details>
 
 <details>
 <summary>What is headless service?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://dev.to/kaoskater08/building-a-headless-service-in-kubernetes-3bk8
 </b></details>
 
 <details>
@@ -615,13 +627,15 @@ Explanation:
 <details>
 <summary>How to deploy stateful application in Kubernetes?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://cloud.google.com/kubernetes-engine/docs/how-to/stateful-apps
+  * https://kubernetes.io/docs/tasks/run-application/run-replicated-stateful-application/
 </b></details>
 
 <details>
 <summary>How to expose Kubernetes service?</summary><br><b>
 Explanation: 
-  TODO
+  * https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
 </b></details>
 
 ## DEVOPS
@@ -631,19 +645,25 @@ Explanation:
 <details>
 <summary>Ansible tutorials</summary><br><b>
 Explanation: 
-  TODO
+  
+  * Ansible for Devops https://leanpub.com/ansible-for-devops
+  * https://serversforhackers.com/c/an-ansible-tutorial
+  * https://medium.com/quick-code/top-tutorials-to-learn-ansible-33afd23ea160
 </b></details>
 
 <details>
 <summary>Salt tutorials</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://docs.saltstack.com/en/master/topics/tutorials/walkthrough.html
+  * https://www.digitalocean.com/community/tutorials/an-introduction-to-saltstack-terminology-and-concepts
 </b></details>
 
 <details>
 <summary>Puppet tutorials</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://www.guru99.com/puppet-tutorial.html
 </b></details>
 
 ### CI/CD
@@ -651,25 +671,31 @@ Explanation:
 <details>
 <summary>What is continuous integration?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://www.youtube.com/watch?v=_zCyLT33moA
+  * https://www.atlassian.com/continuous-delivery/continuous-integration
 </b></details>
 
 <details>
 <summary>What is continuous delivery?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
+  * https://aws.amazon.com/devops/continuous-delivery/
 </b></details>
 
 <details>
 <summary>What is continuous deployment?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://www.atlassian.com/continuous-delivery/continuous-deployment
 </b></details>
 
 <details>
 <summary>What are the benefits of CI/CD?</summary><br><b>
 Explanation: 
-  TODO
+  
+  * https://www.katalon.com/resources-center/blog/benefits-continuous-integration-delivery/
 </b></details>
 
 <details>
@@ -717,7 +743,7 @@ Explanation:
 <summary>What is PaaS, SaaS, IaaS?</summary><br><b>
 Explanation: 
  
- TODO
+ * https://www.ibm.com/cloud/learn/iaas-paas-saas
 </b></details>
 
 
@@ -725,42 +751,45 @@ Explanation:
 <summary>What is private cloud?</summary><br><b>
 Explanation: 
  
- TODO
+ * https://azure.microsoft.com/en-us/overview/what-are-private-public-hybrid-clouds/
 </b></details>
 
 <details>
 <summary>What is public cloud?</summary><br><b>
 Explanation: 
  
- TODO
+ * https://azure.microsoft.com/en-us/overview/what-is-a-public-cloud/
+ * examples: AWS, GCP, DegitalOcean, Azure
 </b></details>
 
 <details>
 <summary>What is cloud service?</summary><br><b>
 Explanation: 
  
- TODO
+ * https://searchitchannel.techtarget.com/definition/cloud-services
 </b></details>
 
 <details>
 <summary>What is serverless service?</summary><br><b>
 Explanation: 
  
- TODO
+ * https://en.wikipedia.org/wiki/Serverless_computing
 </b></details>
 
 <details>
 <summary>AWS tutorials</summary><br><b>
 Explanation: 
  
- TODO
+ * AWS in Russian https://www.youtube.com/watch?v=8jbx8O3wuLg&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB96k9 
+ * https://app.pluralsight.com/library/courses/aws-certified-solutions-architect-associate/table-of-contents?   aid=7010a000002LUv2AAG
 </b></details>
 
 <details>
 <summary>Google Cloud tutorials</summary><br><b>
 Explanation: 
  
- TODO
+ * https://www.udemy.com/topic/google-cloud/
+ * https://linuxacademy.com/course/google-cloud-data-engineer/
 </b></details>
 
 <details>
