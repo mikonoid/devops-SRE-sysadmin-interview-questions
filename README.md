@@ -637,6 +637,12 @@ Explanation:
 Explanation:
   * https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
 </b></details>
+ 
+ <details>
+<summary>Kubernetes deployments strategies: blue-green, canary, rolling</summary><br><b>
+Explanation:
+  * https://traefik.io/glossary/kubernetes-deployment-strategies-blue-green-canary/
+</b></details>
 
 ## DEVOPS
 
