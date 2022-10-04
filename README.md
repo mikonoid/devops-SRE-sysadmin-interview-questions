@@ -418,6 +418,13 @@ Explanation:
   * https://www.geeksforgeeks.org/data-replication-in-dbms/
 </b></details>
 
+<details>
+<summary>What is DynamoDB?</summary><br><b>
+Explanation:
+
+  * https://www.dynamodbguide.com/what-is-dynamo-db/
+</b></details>
+
 ## Version Control System (GIT)
 
 <details>
