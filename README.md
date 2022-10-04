@@ -558,6 +558,14 @@ Explanation:
 </b></details>
 
 <details>
+<summary>Docker and OCI</summary><br><b>
+Explanation:
+
+  * https://www.padok.fr/en/blog/container-docker-oci
+
+</b></details>
+
+<details>
 <summary>What is docker multistage build? Create one example</summary><br><b>
 Explanation:
 
