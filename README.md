@@ -776,6 +776,15 @@ Explanation:
   * https://www.freecodecamp.org/news/terraform-modules-explained/
  
 </b></details>
+ 
+<details>
+<summary>What is ".terraform" directory?</summary><br><b>
+Explanation:
+ 
+```The ".terraform" directory is a local cache where Terraform retains some files required for subsequent operations against this configuration. Its contents are not intended to be included in version control.```
+ 
+</b></details>
+
 
 #### AWS Cloudformation
 
