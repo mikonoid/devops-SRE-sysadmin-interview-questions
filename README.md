@@ -760,15 +760,19 @@ Explanation:
 <details>
 <summary>Terraform</summary><br><b>
 Explanation:
+ 
   * https://www.youtube.com/watch?v=TFLQcgZr0no
   * https://www.udemy.com/share/101ZdI/
+ 
 </b></details>
 
 <details>
 <summary>AWS CloudFormation</summary><br><b>
 Explanation:
+ 
   * TODO
-</b></details>
+
+ </b></details>
 
 
 
