@@ -757,20 +757,34 @@ Explanation:
 
 ### Infrastructure as code
 
+#### Terraform questions
+
 <details>
-<summary>Terraform</summary><br><b>
+<summary>Terraform tutorials</summary><br><b>
 Explanation:
  
   * https://www.youtube.com/watch?v=TFLQcgZr0no
   * https://www.udemy.com/share/101ZdI/
+  * https://itnext.io/terraform-tutorial-part-1-intro-and-basic-concepts-7a27ae7722b6
  
 </b></details>
+
+<details>
+<summary>What is terraform modules?</summary><br><b>
+Explanation:
+ 
+  * https://www.freecodecamp.org/news/terraform-modules-explained/
+ 
+</b></details>
+
+#### AWS Cloudformation
 
 <details>
 <summary>AWS CloudFormation</summary><br><b>
 Explanation:
  
-  * TODO
+  * https://www.youtube.com/watch?v=0Sh9OySCyb4
+  * https://www.simplilearn.com/tutorials/aws-tutorial/aws-cloudformation
 
  </b></details>
 
