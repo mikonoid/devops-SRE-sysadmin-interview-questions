@@ -795,7 +795,8 @@ Explanation:
 * It is used for Plugin Installation.
 * It is also used for Child Module Installation.
 * It is used for Backend Initialization.
-* You can safely run this command multiple times.```
+* You can safely run this command multiple times.
+```
  
 </b></details>
 
@@ -823,12 +824,13 @@ Reference:
 
 <details>
 <summary>AWS CloudFormation</summary><br><b>
+
 Explanation:
  
   * https://www.youtube.com/watch?v=0Sh9OySCyb4
   * https://www.simplilearn.com/tutorials/aws-tutorial/aws-cloudformation
 
- </b></details>
+</b></details>
 
 
 
@@ -875,8 +877,8 @@ Explanation:
 <summary>AWS tutorials</summary><br><b>
 Explanation:
 
- * AWS in Russian https://www.youtube.com/watch?v=8jbx8O3wuLg&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB96k9
- * https://app.pluralsight.com/library/courses/aws-certified-solutions-architect-associate/table-of-contents?   aid=7010a000002LUv2AAG
+ * https://medium.com/javarevisited/5-best-aws-courses-for-beginners-and-experienced-developers-to-learn-in-2021-563212409fbd
+ * https://docs.aws.amazon.com/
 </b></details>
 
 <details>
