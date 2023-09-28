@@ -776,17 +776,61 @@ Explanation:
   * https://www.freecodecamp.org/news/terraform-modules-explained/
  
 </b></details>
+ 
+<details>
+<summary>What is ".terraform" directory?</summary><br><b>
+Explanation:
+ 
+```The ".terraform" directory is a local cache where Terraform retains some files required for subsequent operations against this configuration. Its contents are not intended to be included in version control.```
+ 
+</b></details>
+ 
+<details>
+<summary>What is the usage of Terraform init?</summary><br><b>
+Explanation:
+ 
+```Terraform init is a command used to initialize the Terraform code. Let's see the all usage of Terraform init command:
+
+* Terraform init command is used to initialize the working directory containing Terraform configuration files.
+* It is used for Plugin Installation.
+* It is also used for Child Module Installation.
+* It is used for Backend Initialization.
+* You can safely run this command multiple times.
+```
+ 
+</b></details>
+
+<details>
+<summary>What do you understand by Terraform Backends? What are the most recommended Backends we should use?</summary><br><b>
+Explanation:
+ 
+```Terraform backends are used to define where and how operations are performed, where state snapshots are stored, etc. Each Terraform configuration can specify a backend.```
+
+Reference:
+* https://developer.hashicorp.com/terraform/language/settings/backends/configuration
+ 
+</b></details>
+ 
+<details>
+<summary>What is terraform lock file?</summary><br><b>
+
+ Explanation:
+ 
+* https://developer.hashicorp.com/terraform/language/files/dependency-lock
+ 
+</b></details>
 
 #### AWS Cloudformation
 
 <details>
 <summary>AWS CloudFormation</summary><br><b>
+
 Explanation:
  
   * https://www.youtube.com/watch?v=0Sh9OySCyb4
   * https://www.simplilearn.com/tutorials/aws-tutorial/aws-cloudformation
 
- </b></details>
+</b></details>
 
 
 
@@ -833,8 +877,8 @@ Explanation:
 <summary>AWS tutorials</summary><br><b>
 Explanation:
 
- * AWS in Russian https://www.youtube.com/watch?v=8jbx8O3wuLg&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB96k9
- * https://app.pluralsight.com/library/courses/aws-certified-solutions-architect-associate/table-of-contents?   aid=7010a000002LUv2AAG
+ * https://medium.com/javarevisited/5-best-aws-courses-for-beginners-and-experienced-developers-to-learn-in-2021-563212409fbd
+ * https://docs.aws.amazon.com/
 </b></details>
 
 <details>
