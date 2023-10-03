@@ -349,7 +349,7 @@ fi
 Explanation:
 
   ```  
-  #!/bin/sh
+  #!/bin/bash
   array=("A" "B" "C" "X" )
   echo ${array[0]}
 
@@ -357,6 +357,19 @@ Explanation:
 
 </b></details>
 
+<details>
+<summary>Print number from 1 to 10 using for loop</summary><br><b>
+Explanation:
+
+  ```  
+  #!/bin/bash
+  for i in {1..10}; do
+      echo $i
+  done
+
+  ```
+
+</b></details>
 
 <details>
 <summary>How to debug a shell script ?</summary><br><b>
