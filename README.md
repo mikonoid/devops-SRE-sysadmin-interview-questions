@@ -389,6 +389,16 @@ Explanation:
   * https://python-for-system-administrators.readthedocs.io/en/latest/
 </b></details>
 
+<details>
+<summary>How to compile python application?</summary><br><b>
+Explanation:
+
+  There are two ways could go about to solve that problem:
+
+* Use a static builder, like freeze, or pyinstaller, or py2exe
+* Compile using cython
+</b></details>
+
 ## Databases
 
 <details>
