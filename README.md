@@ -1,5 +1,6 @@
 # Devops/SRE interview preparation questions
 This repo is agregated guide for preparation to Devops/SRE engineer interview
+## https://www.buymeacoffee.com/mikonoid
 
 ## Linux
 
