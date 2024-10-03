@@ -529,6 +529,15 @@ Explanation:
 ## Containers
 
 <details>
+<summary>History of containers</summary><br><b>
+Explanation:
+
+  * https://www.aquasec.com/blog/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016/
+  * https://www.pluralsight.com/resources/blog/cloud/history-of-container-technology
+
+</b></details>
+
+<details>
 <summary>What is LXC?</summary><br><b>
 Explanation:
 
