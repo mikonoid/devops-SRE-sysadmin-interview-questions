@@ -13,13 +13,13 @@ Explanation: https://en.wikipedia.org/wiki/Linux_Standard_Base
 <summary>Popular Linux Distributions</summary><br><b>
 The most popular linux distrs:
 
-  * Ubuntu  
-  * Centos  
-  * Fedora  
-  * Debian  
-  * OpenSuse  
-  * ArchLinux  
-  * Slackware  
+  * Ubuntu
+  * Centos
+  * Fedora
+  * Debian
+  * OpenSuse
+  * ArchLinux
+  * Slackware
 
 Comparison: https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/
 
