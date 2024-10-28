@@ -5,6 +5,11 @@ This repo is agregated guide for preparation to Devops/SRE engineer interview
 ## Linux
 
 <details>
+<summary>History of OS</summary><br><b>
+Explanation: https://www.geeksforgeeks.org/evolution-of-operating-system/
+</b></details>
+
+<details>
 <summary>What is Linux Standart Base?</summary><br><b>
 Explanation: https://en.wikipedia.org/wiki/Linux_Standard_Base
 </b></details>
