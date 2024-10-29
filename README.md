@@ -953,3 +953,4 @@ Explanation:
 * SRE https://landing.google.com/sre/books/
 * Linux System Administration Handbook 5th by Evi Nemeth
 * The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations
+* Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation by Jez Humble and David Farley
