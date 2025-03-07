@@ -710,14 +710,14 @@ Explanation:
 <details>
 <summary>Kubernetes etcd. How to backup etcd.</summary><br><b>
 Explanation:
-  * [https://traefik.io/glossary/kubernetes-deployment-strategies-blue-green-canary/](https://medium.com/@mehmetodabashi/backup-and-restore-etcd-cluster-on-kubernetes-93c19b1c070)
+  * https://medium.com/@mehmetodabashi/backup-and-restore-etcd-cluster-on-kubernetes-93c19b1c070
   * https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/
 </b></details>
 
 <details>
 <summary>Custom Resource Definitions (CRD)</summary><br><b>
 Explanation:
-  * [https://traefik.io/glossary/kubernetes-deployment-strategies-blue-green-canary/](https://spacelift.io/blog/kubernetes-crd)
+  * https://spacelift.io/blog/kubernetes-crd
   * https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/
 </b></details>
 
