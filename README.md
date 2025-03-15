@@ -721,6 +721,13 @@ Explanation:
   * https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/
 </b></details>
 
+<details>
+<summary>NodePort vs ClusterIP</summary><br><b>
+Explanation:
+  * [Exploring Kubernetes Service Types](https://edgedelta.com/company/blog/kubernetes-services-types)
+  * https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
+</b></details>
+
 ## DEVOPS
 
 ### Config management
