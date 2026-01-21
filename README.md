@@ -1205,7 +1205,9 @@ Explanation:
 
 
 
-### Clouds
+## Clouds
+
+### Cloud Computing Fundamentals
 
 <details>
 <summary>What is PaaS, SaaS, IaaS?</summary><br><b>
@@ -1213,7 +1215,6 @@ Explanation:
 
  * https://www.ibm.com/cloud/learn/iaas-paas-saas
 </b></details>
-
 
 <details>
 <summary>What is private cloud?</summary><br><b>
@@ -1227,7 +1228,21 @@ Explanation:
 Explanation:
 
  * https://azure.microsoft.com/en-us/overview/what-is-a-public-cloud/
- * examples: AWS, GCP, DegitalOcean, Azure
+ * examples: AWS, GCP, DigitalOcean, Azure
+</b></details>
+
+<details>
+<summary>What is hybrid cloud?</summary><br><b>
+Explanation:
+
+ * https://www.ibm.com/cloud/learn/hybrid-cloud
+</b></details>
+
+<details>
+<summary>What is multi-cloud?</summary><br><b>
+Explanation:
+
+ * https://www.redhat.com/en/topics/cloud-computing/what-is-multicloud
 </b></details>
 
 <details>
@@ -1238,34 +1253,507 @@ Explanation:
 </b></details>
 
 <details>
-<summary>What is serverless service?</summary><br><b>
+<summary>What is serverless computing?</summary><br><b>
 Explanation:
 
  * https://en.wikipedia.org/wiki/Serverless_computing
+ * https://aws.amazon.com/serverless/
 </b></details>
 
 <details>
-<summary>AWS tutorials</summary><br><b>
+<summary>What is cloud-native?</summary><br><b>
 Explanation:
 
- * https://medium.com/javarevisited/5-best-aws-courses-for-beginners-and-experienced-developers-to-learn-in-2021-563212409fbd
+ * https://www.cncf.io/about/faq/
+</b></details>
+
+<details>
+<summary>What is elasticity in cloud computing?</summary><br><b>
+Explanation:
+
+ * Ability to scale resources up or down based on demand
+ * https://www.ibm.com/cloud/learn/benefits-of-cloud-computing
+</b></details>
+
+<details>
+<summary>What is cloud availability zone?</summary><br><b>
+Explanation:
+
+ * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
+</b></details>
+
+<details>
+<summary>What is a cloud region?</summary><br><b>
+Explanation:
+
+ * Geographic location where cloud provider has data centers
+ * https://cloud.google.com/compute/docs/regions-zones
+</b></details>
+
+### AWS (Amazon Web Services)
+
+<details>
+<summary>AWS tutorials and resources</summary><br><b>
+Explanation:
+
+ * https://aws.amazon.com/getting-started/
  * https://docs.aws.amazon.com/
+ * https://medium.com/javarevisited/5-best-aws-courses-for-beginners-and-experienced-developers-to-learn-in-2021-563212409fbd
 </b></details>
 
 <details>
-<summary>Google Cloud tutorials</summary><br><b>
+<summary>What is EC2?</summary><br><b>
 Explanation:
 
+ * Elastic Compute Cloud - virtual servers in the cloud
+ * https://aws.amazon.com/ec2/
+</b></details>
+
+<details>
+<summary>What is S3?</summary><br><b>
+Explanation:
+
+ * Simple Storage Service - object storage
+ * https://aws.amazon.com/s3/
+</b></details>
+
+<details>
+<summary>What is VPC?</summary><br><b>
+Explanation:
+
+ * Virtual Private Cloud - isolated network in AWS
+ * https://aws.amazon.com/vpc/
+</b></details>
+
+<details>
+<summary>What is AWS Lambda?</summary><br><b>
+Explanation:
+
+ * Serverless compute service
+ * https://aws.amazon.com/lambda/
+</b></details>
+
+<details>
+<summary>What is RDS?</summary><br><b>
+Explanation:
+
+ * Relational Database Service
+ * https://aws.amazon.com/rds/
+</b></details>
+
+<details>
+<summary>What is ECS and EKS?</summary><br><b>
+Explanation:
+
+ * ECS - Elastic Container Service
+ * EKS - Elastic Kubernetes Service
+ * https://aws.amazon.com/ecs/
+ * https://aws.amazon.com/eks/
+</b></details>
+
+<details>
+<summary>What is CloudFormation?</summary><br><b>
+Explanation:
+
+ * Infrastructure as Code service
+ * https://aws.amazon.com/cloudformation/
+ * https://www.simplilearn.com/tutorials/aws-tutorial/aws-cloudformation
+</b></details>
+
+<details>
+<summary>What is IAM in AWS?</summary><br><b>
+Explanation:
+
+ * Identity and Access Management
+ * https://aws.amazon.com/iam/
+</b></details>
+
+<details>
+<summary>What is CloudWatch?</summary><br><b>
+Explanation:
+
+ * Monitoring and observability service
+ * https://aws.amazon.com/cloudwatch/
+</b></details>
+
+<details>
+<summary>What is Route53?</summary><br><b>
+Explanation:
+
+ * DNS web service
+ * https://aws.amazon.com/route53/
+</b></details>
+
+<details>
+<summary>What is Elastic Load Balancer (ELB)?</summary><br><b>
+Explanation:
+
+ * Distributes incoming traffic across multiple targets
+ * ALB, NLB, CLB differences
+ * https://aws.amazon.com/elasticloadbalancing/
+</b></details>
+
+<details>
+<summary>What is Auto Scaling in AWS?</summary><br><b>
+Explanation:
+
+ * Automatically adjusts compute capacity
+ * https://aws.amazon.com/autoscaling/
+</b></details>
+
+<details>
+<summary>What is CloudFront?</summary><br><b>
+Explanation:
+
+ * Content Delivery Network (CDN)
+ * https://aws.amazon.com/cloudfront/
+</b></details>
+
+<details>
+<summary>What is SNS and SQS?</summary><br><b>
+Explanation:
+
+ * SNS - Simple Notification Service
+ * SQS - Simple Queue Service
+ * https://aws.amazon.com/sns/
+ * https://aws.amazon.com/sqs/
+</b></details>
+
+<details>
+<summary>What is AWS KMS?</summary><br><b>
+Explanation:
+
+ * Key Management Service - encryption key management
+ * https://aws.amazon.com/kms/
+</b></details>
+
+<details>
+<summary>What is AWS Secrets Manager?</summary><br><b>
+Explanation:
+
+ * Manage, retrieve, and rotate credentials
+ * https://aws.amazon.com/secrets-manager/
+</b></details>
+
+<details>
+<summary>What is DynamoDB?</summary><br><b>
+Explanation:
+
+ * NoSQL database service
+ * https://aws.amazon.com/dynamodb/
+ * https://www.dynamodbguide.com/what-is-dynamo-db/
+</b></details>
+
+<details>
+<summary>What is ElastiCache?</summary><br><b>
+Explanation:
+
+ * In-memory caching service (Redis, Memcached)
+ * https://aws.amazon.com/elasticache/
+</b></details>
+
+<details>
+<summary>What is AWS Step Functions?</summary><br><b>
+Explanation:
+
+ * Serverless workflow orchestration
+ * https://aws.amazon.com/step-functions/
+</b></details>
+
+<details>
+<summary>What is AWS Organizations?</summary><br><b>
+Explanation:
+
+ * Centrally manage multiple AWS accounts
+ * https://aws.amazon.com/organizations/
+</b></details>
+
+### Azure (Microsoft Azure)
+
+<details>
+<summary>Azure tutorials and resources</summary><br><b>
+Explanation:
+
+ * https://docs.microsoft.com/en-us/learn/azure/
+ * https://azure.microsoft.com/en-us/get-started/
+</b></details>
+
+<details>
+<summary>What is Azure Virtual Machines?</summary><br><b>
+Explanation:
+
+ * IaaS compute service
+ * https://azure.microsoft.com/en-us/services/virtual-machines/
+</b></details>
+
+<details>
+<summary>What is Azure App Service?</summary><br><b>
+Explanation:
+
+ * PaaS for web apps
+ * https://azure.microsoft.com/en-us/services/app-service/
+</b></details>
+
+<details>
+<summary>What is Azure Blob Storage?</summary><br><b>
+Explanation:
+
+ * Object storage solution
+ * https://azure.microsoft.com/en-us/services/storage/blobs/
+</b></details>
+
+<details>
+<summary>What is Azure Functions?</summary><br><b>
+Explanation:
+
+ * Serverless compute service
+ * https://azure.microsoft.com/en-us/services/functions/
+</b></details>
+
+<details>
+<summary>What is Azure AKS (Kubernetes Service)?</summary><br><b>
+Explanation:
+
+ * Managed Kubernetes service
+ * https://azure.microsoft.com/en-us/services/kubernetes-service/
+</b></details>
+
+<details>
+<summary>What is Azure Resource Manager (ARM)?</summary><br><b>
+Explanation:
+
+ * Deployment and management service
+ * https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview
+</b></details>
+
+<details>
+<summary>What is Azure Active Directory?</summary><br><b>
+Explanation:
+
+ * Identity and access management
+ * https://azure.microsoft.com/en-us/services/active-directory/
+</b></details>
+
+<details>
+<summary>What is Azure DevOps?</summary><br><b>
+Explanation:
+
+ * CI/CD and collaboration tools
+ * https://azure.microsoft.com/en-us/services/devops/
+</b></details>
+
+<details>
+<summary>What is Azure Monitor?</summary><br><b>
+Explanation:
+
+ * Monitoring and diagnostics
+ * https://azure.microsoft.com/en-us/services/monitor/
+</b></details>
+
+<details>
+<summary>What is Azure SQL Database?</summary><br><b>
+Explanation:
+
+ * Managed relational database
+ * https://azure.microsoft.com/en-us/services/sql-database/
+</b></details>
+
+<details>
+<summary>What is Azure Cosmos DB?</summary><br><b>
+Explanation:
+
+ * Globally distributed NoSQL database
+ * https://azure.microsoft.com/en-us/services/cosmos-db/
+</b></details>
+
+<details>
+<summary>What is Azure Key Vault?</summary><br><b>
+Explanation:
+
+ * Secrets management service
+ * https://azure.microsoft.com/en-us/services/key-vault/
+</b></details>
+
+<details>
+<summary>What is Azure Load Balancer?</summary><br><b>
+Explanation:
+
+ * Layer 4 load balancing
+ * https://azure.microsoft.com/en-us/services/load-balancer/
+</b></details>
+
+<details>
+<summary>What is Azure CDN?</summary><br><b>
+Explanation:
+
+ * Content Delivery Network
+ * https://azure.microsoft.com/en-us/services/cdn/
+</b></details>
+
+### GCP (Google Cloud Platform)
+
+<details>
+<summary>GCP tutorials and resources</summary><br><b>
+Explanation:
+
+ * https://cloud.google.com/training
  * https://www.udemy.com/topic/google-cloud/
- * https://linuxacademy.com/course/google-cloud-data-engineer/
+ * https://cloud.google.com/docs
 </b></details>
 
 <details>
-<summary>Openstack tutorials</summary><br><b>
+<summary>What is Compute Engine?</summary><br><b>
 Explanation:
 
-  The best resource with Openstack cources is LinuxAcademy
-  https://linuxacademy.com/library/search/openstack/
+ * Virtual machines in GCP
+ * https://cloud.google.com/compute
+</b></details>
+
+<details>
+<summary>What is Google Cloud Storage?</summary><br><b>
+Explanation:
+
+ * Object storage service
+ * https://cloud.google.com/storage
+</b></details>
+
+<details>
+<summary>What is Cloud Functions?</summary><br><b>
+Explanation:
+
+ * Serverless execution environment
+ * https://cloud.google.com/functions
+</b></details>
+
+<details>
+<summary>What is GKE (Google Kubernetes Engine)?</summary><br><b>
+Explanation:
+
+ * Managed Kubernetes service
+ * https://cloud.google.com/kubernetes-engine
+</b></details>
+
+<details>
+<summary>What is Cloud Run?</summary><br><b>
+Explanation:
+
+ * Fully managed serverless platform for containers
+ * https://cloud.google.com/run
+</b></details>
+
+<details>
+<summary>What is BigQuery?</summary><br><b>
+Explanation:
+
+ * Serverless data warehouse
+ * https://cloud.google.com/bigquery
+</b></details>
+
+<details>
+<summary>What is Cloud SQL?</summary><br><b>
+Explanation:
+
+ * Managed relational database
+ * https://cloud.google.com/sql
+</b></details>
+
+<details>
+<summary>What is Cloud Spanner?</summary><br><b>
+Explanation:
+
+ * Horizontally scalable relational database
+ * https://cloud.google.com/spanner
+</b></details>
+
+<details>
+<summary>What is Firestore?</summary><br><b>
+Explanation:
+
+ * NoSQL document database
+ * https://cloud.google.com/firestore
+</b></details>
+
+<details>
+<summary>What is Cloud Pub/Sub?</summary><br><b>
+Explanation:
+
+ * Messaging and event ingestion
+ * https://cloud.google.com/pubsub
+</b></details>
+
+<details>
+<summary>What is Cloud IAM?</summary><br><b>
+Explanation:
+
+ * Identity and Access Management
+ * https://cloud.google.com/iam
+</b></details>
+
+<details>
+<summary>What is Cloud Monitoring (formerly Stackdriver)?</summary><br><b>
+Explanation:
+
+ * Monitoring, logging, and diagnostics
+ * https://cloud.google.com/monitoring
+</b></details>
+
+<details>
+<summary>What is Cloud Load Balancing?</summary><br><b>
+Explanation:
+
+ * Distribute traffic across instances
+ * https://cloud.google.com/load-balancing
+</b></details>
+
+<details>
+<summary>What is Cloud CDN?</summary><br><b>
+Explanation:
+
+ * Content Delivery Network
+ * https://cloud.google.com/cdn
+</b></details>
+
+<details>
+<summary>What is VPC in GCP?</summary><br><b>
+Explanation:
+
+ * Virtual Private Cloud networking
+ * https://cloud.google.com/vpc
+</b></details>
+
+<details>
+<summary>What is Cloud Build?</summary><br><b>
+Explanation:
+
+ * CI/CD platform
+ * https://cloud.google.com/build
+</b></details>
+
+<details>
+<summary>What is Anthos?</summary><br><b>
+Explanation:
+
+ * Hybrid and multi-cloud application platform
+ * https://cloud.google.com/anthos
+</b></details>
+
+### Other Cloud Providers
+
+<details>
+<summary>What is DigitalOcean?</summary><br><b>
+Explanation:
+
+ * Developer-friendly cloud platform
+ * https://www.digitalocean.com/
+</b></details>
+
+<details>
+<summary>OpenStack tutorials</summary><br><b>
+Explanation:
+
+ * Open-source cloud computing platform
+ * https://www.openstack.org/
+ * https://docs.openstack.org/
 </b></details>
 
 ## Books and courses
