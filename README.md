@@ -355,7 +355,7 @@ fi
 <summary> How to print all array elements and their indexes?</summary><br><b>
 Explanation:
 
-  ```  
+  ```
   #!/bin/bash
   array=("A" "B" "C" "X" )
   echo ${array[0]}
@@ -368,7 +368,7 @@ Explanation:
 <summary>Print number from 1 to 10 using for loop</summary><br><b>
 Explanation:
 
-  ```  
+  ```
   #!/bin/bash
   for i in {1..10}; do
       echo $i
@@ -700,7 +700,7 @@ Explanation:
 Explanation:
   * https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
 </b></details>
- 
+
  <details>
 <summary>Kubernetes deployments strategies: blue-green, canary, rolling</summary><br><b>
 Explanation:
@@ -824,6 +824,375 @@ Explanation:
 
 </b></details>
 
+### Containerization & Orchestration
+
+<details>
+<summary>What is a container? How does it differ from a VM?</summary><br><b>
+Explanation:
+
+  * https://www.docker.com/resources/what-container
+  * https://www.backblaze.com/blog/vm-vs-containers/
+</b></details>
+
+<details>
+<summary>What is Docker?</summary><br><b>
+Explanation:
+
+  * https://docs.docker.com/get-started/overview/
+  * https://www.redhat.com/en/topics/containers/what-is-docker
+</b></details>
+
+<details>
+<summary>Explain Docker architecture</summary><br><b>
+Explanation:
+
+  * Docker daemon, Docker client, Docker registry
+  * https://docs.docker.com/get-started/overview/#docker-architecture
+</b></details>
+
+<details>
+<summary>What is the difference between Docker image and container?</summary><br><b>
+Explanation:
+
+  * Image is a template, container is a running instance
+  * https://stackoverflow.com/questions/23735149/what-is-the-difference-between-a-docker-image-and-a-container
+</b></details>
+
+<details>
+<summary>What is Dockerfile? Explain best practices</summary><br><b>
+Explanation:
+
+  * https://docs.docker.com/engine/reference/builder/
+  * https://docs.docker.com/develop/dev-best-practices/
+</b></details>
+
+<details>
+<summary>What is Docker Compose?</summary><br><b>
+Explanation:
+
+  * https://docs.docker.com/compose/
+</b></details>
+
+<details>
+<summary>Docker multi-stage builds</summary><br><b>
+Explanation:
+
+  * https://docs.docker.com/build/building/multi-stage/
+</b></details>
+
+<details>
+<summary>What is Kubernetes?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+</b></details>
+
+<details>
+<summary>Kubernetes architecture (Control Plane, Worker Nodes)</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/architecture/
+</b></details>
+
+<details>
+<summary>What are Kubernetes pods, deployments, services, ingress?</summary><br><b>
+Explanation:
+
+  * Pods: https://kubernetes.io/docs/concepts/workloads/pods/
+  * Deployments: https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+  * Services: https://kubernetes.io/docs/concepts/services-networking/service/
+  * Ingress: https://kubernetes.io/docs/concepts/services-networking/ingress/
+</b></details>
+
+<details>
+<summary>What is a namespace in Kubernetes?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
+</b></details>
+
+<details>
+<summary>ConfigMaps and Secrets in Kubernetes</summary><br><b>
+Explanation:
+
+  * ConfigMaps: https://kubernetes.io/docs/concepts/configuration/configmap/
+  * Secrets: https://kubernetes.io/docs/concepts/configuration/secret/
+</b></details>
+
+<details>
+<summary>What are StatefulSets and when to use them?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
+</b></details>
+
+<details>
+<summary>What is a DaemonSet?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
+</b></details>
+
+<details>
+<summary>Kubernetes persistent volumes and storage classes</summary><br><b>
+Explanation:
+
+  * PV: https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+  * Storage Classes: https://kubernetes.io/docs/concepts/storage/storage-classes/
+</b></details>
+
+<details>
+<summary>What is Helm?</summary><br><b>
+Explanation:
+
+  * https://helm.sh/docs/
+  * https://www.redhat.com/en/topics/devops/what-is-helm
+</b></details>
+
+<details>
+<summary>Kubernetes resource limits and requests</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+</b></details>
+
+<details>
+<summary>Kubernetes networking model</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/cluster-administration/networking/
+</b></details>
+
+<details>
+<summary>What are init containers?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/workloads/pods/init-containers/
+</b></details>
+
+<details>
+<summary>Kubernetes probes (liveness, readiness, startup)</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+</b></details>
+
+### Monitoring & Logging
+
+<details>
+<summary>What is observability?</summary><br><b>
+Explanation:
+
+  * https://www.ibm.com/cloud/learn/observability
+  * Three pillars: metrics, logs, traces
+</b></details>
+
+<details>
+<summary>What is Prometheus?</summary><br><b>
+Explanation:
+
+  * https://prometheus.io/docs/introduction/overview/
+</b></details>
+
+<details>
+<summary>Prometheus architecture and components</summary><br><b>
+Explanation:
+
+  * https://prometheus.io/docs/introduction/overview/#architecture
+</b></details>
+
+<details>
+<summary>What is Grafana?</summary><br><b>
+Explanation:
+
+  * https://grafana.com/docs/grafana/latest/introduction/
+</b></details>
+
+<details>
+<summary>ELK Stack (Elasticsearch, Logstash, Kibana)</summary><br><b>
+Explanation:
+
+  * https://www.elastic.co/what-is/elk-stack
+</b></details>
+
+<details>
+<summary>What is distributed tracing? Jaeger, Zipkin</summary><br><b>
+Explanation:
+
+  * https://opentelemetry.io/docs/concepts/observability-primer/#distributed-traces
+  * Jaeger: https://www.jaegertracing.io/
+  * Zipkin: https://zipkin.io/
+</b></details>
+
+<details>
+<summary>Log aggregation vs log streaming</summary><br><b>
+Explanation:
+
+  * Fluentd, Fluent Bit, Logstash comparison
+  * https://logz.io/blog/fluentd-logstash/
+</b></details>
+
+<details>
+<summary>What are SLI, SLO, SLA?</summary><br><b>
+Explanation:
+
+  * https://cloud.google.com/blog/products/devops-sre/sre-fundamentals-slis-slas-and-slos
+  * https://sre.google/sre-book/service-level-objectives/
+</b></details>
+
+<details>
+<summary>What is APM (Application Performance Monitoring)?</summary><br><b>
+Explanation:
+
+  * https://www.dynatrace.com/news/blog/what-is-apm-2/
+  * Tools: New Relic, Datadog, Dynatrace
+</b></details>
+
+### GitOps
+
+<details>
+<summary>What is GitOps?</summary><br><b>
+Explanation:
+
+  * https://www.gitops.tech/
+  * https://www.weave.works/technologies/gitops/
+</b></details>
+
+<details>
+<summary>GitOps tools (ArgoCD, Flux)</summary><br><b>
+Explanation:
+
+  * ArgoCD: https://argo-cd.readthedocs.io/en/stable/
+  * Flux: https://fluxcd.io/
+</b></details>
+
+### Security & Compliance
+
+<details>
+<summary>What is DevSecOps?</summary><br><b>
+Explanation:
+
+  * https://www.redhat.com/en/topics/devops/what-is-devsecops
+</b></details>
+
+<details>
+<summary>Container security scanning (Trivy, Clair, Aqua)</summary><br><b>
+Explanation:
+
+  * Trivy: https://github.com/aquasecurity/trivy
+  * https://sysdig.com/learn-cloud-native/kubernetes-security/kubernetes-image-scanning/
+</b></details>
+
+<details>
+<summary>What is SAST and DAST?</summary><br><b>
+Explanation:
+
+  * https://www.synopsys.com/glossary/what-is-sast.html
+  * https://www.microfocus.com/en-us/what-is/dast
+</b></details>
+
+<details>
+<summary>Secret management (HashiCorp Vault, AWS Secrets Manager)</summary><br><b>
+Explanation:
+
+  * Vault: https://www.vaultproject.io/
+  * AWS Secrets Manager: https://aws.amazon.com/secrets-manager/
+</b></details>
+
+<details>
+<summary>What is RBAC in Kubernetes?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/reference/access-authn-authz/rbac/
+</b></details>
+
+<details>
+<summary>What are admission controllers in Kubernetes?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/
+</b></details>
+
+<details>
+<summary>Network policies in Kubernetes</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/services-networking/network-policies/
+</b></details>
+
+<details>
+<summary>What is Pod Security Policy/Pod Security Standards?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/security/pod-security-standards/
+</b></details>
+
+### Version Control & Collaboration
+
+<details>
+<summary>Git branching strategies (GitFlow, trunk-based)</summary><br><b>
+Explanation:
+
+  * https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+  * https://trunkbaseddevelopment.com/
+</b></details>
+
+<details>
+<summary>What is monorepo vs polyrepo?</summary><br><b>
+Explanation:
+
+  * https://www.atlassian.com/git/tutorials/monorepos
+</b></details>
+
+<details>
+<summary>Code review best practices</summary><br><b>
+Explanation:
+
+  * https://google.github.io/eng-practices/review/
+</b></details>
+
+### Service Mesh
+
+<details>
+<summary>What is a service mesh?</summary><br><b>
+Explanation:
+
+  * https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh
+</b></details>
+
+<details>
+<summary>Istio overview</summary><br><b>
+Explanation:
+
+  * https://istio.io/latest/docs/concepts/what-is-istio/
+</b></details>
+
+<details>
+<summary>Linkerd overview</summary><br><b>
+Explanation:
+
+  * https://linkerd.io/
+</b></details>
+
+### Chaos Engineering
+
+<details>
+<summary>What is Chaos Engineering?</summary><br><b>
+Explanation:
+
+  * https://principlesofchaos.org/
+  * https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/
+</b></details>
+
+<details>
+<summary>Chaos Engineering tools (Chaos Monkey, Gremlin, Litmus)</summary><br><b>
+Explanation:
+
+  * Chaos Monkey: https://netflix.github.io/chaosmonkey/
+  * Gremlin: https://www.gremlin.com/
+  * Litmus: https://litmuschaos.io/
+</b></details>
+
 ### Infrastructure as code
 
 #### Terraform questions
@@ -831,33 +1200,33 @@ Explanation:
 <details>
 <summary>Terraform tutorials</summary><br><b>
 Explanation:
- 
+
   * https://www.youtube.com/watch?v=TFLQcgZr0no
   * https://www.udemy.com/share/101ZdI/
   * https://itnext.io/terraform-tutorial-part-1-intro-and-basic-concepts-7a27ae7722b6
- 
+
 </b></details>
 
 <details>
 <summary>What is terraform modules?</summary><br><b>
 Explanation:
- 
+
   * https://www.freecodecamp.org/news/terraform-modules-explained/
- 
+
 </b></details>
- 
+
 <details>
 <summary>What is ".terraform" directory?</summary><br><b>
 Explanation:
- 
+
 ```The ".terraform" directory is a local cache where Terraform retains some files required for subsequent operations against this configuration. Its contents are not intended to be included in version control.```
- 
+
 </b></details>
- 
+
 <details>
 <summary>What is the usage of Terraform init?</summary><br><b>
 Explanation:
- 
+
 ```Terraform init is a command used to initialize the Terraform code. Let's see the all usage of Terraform init command:
 
 * Terraform init command is used to initialize the working directory containing Terraform configuration files.
@@ -866,27 +1235,27 @@ Explanation:
 * It is used for Backend Initialization.
 * You can safely run this command multiple times.
 ```
- 
+
 </b></details>
 
 <details>
 <summary>What do you understand by Terraform Backends? What are the most recommended Backends we should use?</summary><br><b>
 Explanation:
- 
+
 ```Terraform backends are used to define where and how operations are performed, where state snapshots are stored, etc. Each Terraform configuration can specify a backend.```
 
 Reference:
 * https://developer.hashicorp.com/terraform/language/settings/backends/configuration
- 
+
 </b></details>
- 
+
 <details>
 <summary>What is terraform lock file?</summary><br><b>
 
  Explanation:
- 
+
 * https://developer.hashicorp.com/terraform/language/files/dependency-lock
- 
+
 </b></details>
 
 #### AWS Cloudformation
@@ -895,7 +1264,7 @@ Reference:
 <summary>AWS CloudFormation</summary><br><b>
 
 Explanation:
- 
+
   * https://www.youtube.com/watch?v=0Sh9OySCyb4
   * https://www.simplilearn.com/tutorials/aws-tutorial/aws-cloudformation
 
