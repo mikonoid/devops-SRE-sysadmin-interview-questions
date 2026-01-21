@@ -532,96 +532,7 @@ Explanation:
 
 </b></details>
 
-## Containers
-
-<details>
-<summary>History of containers</summary><br><b>
-Explanation:
-
-  * https://www.aquasec.com/blog/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016/
-  * https://www.pluralsight.com/resources/blog/cloud/history-of-container-technology
-
-</b></details>
-
-<details>
-<summary>What is LXC?</summary><br><b>
-Explanation:
-
-  * https://linuxcontainers.org/lxc/introduction/
-
-</b></details>
-
-<details>
-<summary>What is Docker?</summary><br><b>
-Explanation:
-
-  * https://opensource.com/resources/what-docker
-
-</b></details>
-
-<details>
-<summary>What are the advantages of using Docker container?</summary><br><b>
-Explanation:
-
-  * https://dzone.com/articles/top-10-benefits-of-using-docker
-
-</b></details>
-
-<details>
-<summary>Docker RUN vs CMD vs ENTRYPOINT</summary><br><b>
-Explanation:
-
-  * https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
-
-</b></details>
-
-<details>
-<summary>What is the difference between ADD and COPY in Dockerfile?</summary><br><b>
-Explanation:
-  * https://dev.to/lasatadevi/docker-cmd-vs-entrypoint-34e0
-</b></details>
-
-<details>
-<summary>What is Docker registry?</summary><br><b>
-Explanation:
-
-  Storage for docker images https://docs.docker.com/registry/
-
-</b></details>
-
-<details>
-<summary>What is Docker volume?</summary><br><b>
-Explanation:
-
-  * https://docs.docker.com/storage/volumes/
-
-</b></details>
-
-<details>
-<summary>What is docker namespaces?</summary><br><b>
-Explanation:
-
-  * https://success.docker.com/article/introduction-to-user-namespaces-in-docker-engine
-
-</b></details>
-
-<details>
-<summary>Docker and OCI</summary><br><b>
-Explanation:
-
-  * https://www.padok.fr/en/blog/container-docker-oci
-
-</b></details>
-
-<details>
-<summary>What is docker multistage build? Create one example</summary><br><b>
-Explanation:
-
-  * https://dev.to/brpaz/using-docker-multi-stage-builds-during-development-35bc
-
-</b></details>
-
-## Kubernetes
+## DEVOPS
 
 <details>
 <summary>Why we need container orchestration?</summary><br><b>
@@ -881,10 +792,62 @@ Explanation:
 </b></details>
 
 <details>
+<summary>Docker RUN vs CMD vs ENTRYPOINT</summary><br><b>
+Explanation:
+
+  * https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
+</b></details>
+
+<details>
+<summary>What is the difference between ADD and COPY in Dockerfile?</summary><br><b>
+Explanation:
+
+  * https://dev.to/lasatadevi/docker-cmd-vs-entrypoint-34e0
+</b></details>
+
+<details>
+<summary>What is Docker registry?</summary><br><b>
+Explanation:
+
+  * https://docs.docker.com/registry/
+  * Storage for docker images
+</b></details>
+
+<details>
+<summary>What is Docker volume?</summary><br><b>
+Explanation:
+
+  * https://docs.docker.com/storage/volumes/
+</b></details>
+
+<details>
+<summary>What is docker namespaces?</summary><br><b>
+Explanation:
+
+  * https://success.docker.com/article/introduction-to-user-namespaces-in-docker-engine
+</b></details>
+
+<details>
+<summary>History of containers (LXC, chroot)</summary><br><b>
+Explanation:
+
+  * https://www.aquasec.com/blog/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016/
+  * https://linuxcontainers.org/lxc/introduction/
+</b></details>
+
+<details>
 <summary>What is Kubernetes?</summary><br><b>
 Explanation:
 
   * https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+  * Kubernetes in 5 minutes: https://www.youtube.com/watch?v=PH-2FfFD2PU
+</b></details>
+
+<details>
+<summary>Why we need container orchestration?</summary><br><b>
+Explanation:
+
+  * https://opensource.com/life/16/9/containing-container-chaos-kubernetes
 </b></details>
 
 <details>
@@ -975,6 +938,82 @@ Explanation:
 Explanation:
 
   * https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+</b></details>
+
+<details>
+<summary>What is kubelet?</summary><br><b>
+Explanation:
+
+  * Kubelet - agent on a kubernetes cluster's node that takes care of all activity on that node
+  * https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/
+</b></details>
+
+<details>
+<summary>What is kubectl?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/reference/kubectl/overview/
+</b></details>
+
+<details>
+<summary>What is CNI (Container Network Interface)?</summary><br><b>
+Explanation:
+
+  * https://www.dasblinkenlichten.com/understanding-cni-container-networking-interface/
+</b></details>
+
+<details>
+<summary>What is headless service?</summary><br><b>
+Explanation:
+
+  * https://dev.to/kaoskater08/building-a-headless-service-in-kubernetes-3bk8
+</b></details>
+
+<details>
+<summary>What are the units of CPU and memory in POD definition?</summary><br><b>
+Explanation:
+
+  * CPU is in milicores and memory in bytes
+  * https://www.noqcks.io/notes/2018/02/03/understanding-kubernetes-resources/
+</b></details>
+
+<details>
+<summary>How to deploy stateful application in Kubernetes?</summary><br><b>
+Explanation:
+
+  * https://cloud.google.com/kubernetes-engine/docs/how-to/stateful-apps
+  * https://kubernetes.io/docs/tasks/run-application/run-replicated-stateful-application/
+</b></details>
+
+<details>
+<summary>Kubernetes deployment strategies: blue-green, canary, rolling</summary><br><b>
+Explanation:
+
+  * https://traefik.io/glossary/kubernetes-deployment-strategies-blue-green-canary/
+</b></details>
+
+<details>
+<summary>Kubernetes etcd - how to backup etcd</summary><br><b>
+Explanation:
+
+  * https://medium.com/@mehmetodabashi/backup-and-restore-etcd-cluster-on-kubernetes-93c19b1c070
+  * https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/
+</b></details>
+
+<details>
+<summary>Custom Resource Definitions (CRD)</summary><br><b>
+Explanation:
+
+  * https://spacelift.io/blog/kubernetes-crd
+  * https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/
+</b></details>
+
+<details>
+<summary>NodePort vs ClusterIP</summary><br><b>
+Explanation:
+
+  * https://edgedelta.com/company/blog/kubernetes-services-types
+  * https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
 </b></details>
 
 ### Monitoring & Logging
