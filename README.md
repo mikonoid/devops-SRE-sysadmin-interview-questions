@@ -1,5 +1,5 @@
 # Devops/SRE interview preparation questions
-This repo is agregated guide for preparation to Devops/SRE engineer interview
+This repo is aggregated guide for preparation to Devops/SRE engineer interview
 #### If you want to thank the author https://www.buymeacoffee.com/mikonoid
 
 ## Linux
@@ -10,13 +10,13 @@ Explanation: https://www.geeksforgeeks.org/evolution-of-operating-system/
 </b></details>
 
 <details>
-<summary>What is Linux Standart Base?</summary><br><b>
+<summary>What is Linux Standard Base?</summary><br><b>
 Explanation: https://en.wikipedia.org/wiki/Linux_Standard_Base
 </b></details>
 
 <details>
 <summary>Popular Linux Distributions</summary><br><b>
-The most popular linux distrs:
+The most popular linux distros:
 
   * Ubuntu
   * Centos
@@ -31,7 +31,7 @@ Comparison: https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distri
 </b></details>
 
 <details>
-<summary>Linux boot process: from power up to login promt</summary><br><b>
+<summary>Linux boot process: from power up to login prompt</summary><br><b>
 Explanation:
 
   * BIOS
@@ -246,7 +246,7 @@ Explanation:
 </b></details>
 
 <details>
-<summary>EXplain TCP 3-way handshake proccess</summary><br><b>
+<summary>Explain TCP 3-way handshake process</summary><br><b>
 Explanation:
 
   https://www.geeksforgeeks.org/tcp-3-way-handshake-process/
@@ -451,7 +451,7 @@ Explanation:
 </b></details>
 
 <details>
-<summary>What is database recplication?</summary><br><b>
+<summary>What is database replication?</summary><br><b>
 Explanation:
 
   * https://www.geeksforgeeks.org/data-replication-in-dbms/
@@ -470,7 +470,6 @@ Explanation:
 <summary>What is GIT?</summary><br><b>
 Explanation:
 
-  * https://git-scm.com/book/en/v2/Getting-Started-What-is-Git
   * https://git-scm.com/book/en/v2/Getting-Started-What-is-Git
 
 </b></details>
@@ -532,8 +531,338 @@ Explanation:
 
 </b></details>
 
+## Containers
+
+<details>
+<summary>History of containers</summary><br><b>
+Explanation:
+
+  * https://www.aquasec.com/blog/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016/
+  * https://www.pluralsight.com/resources/blog/cloud/history-of-container-technology
+
+</b></details>
+
+<details>
+<summary>What is LXC?</summary><br><b>
+Explanation:
+
+  * https://linuxcontainers.org/lxc/introduction/
+
+</b></details>
+
+<details>
+<summary>What is Docker?</summary><br><b>
+Explanation:
+
+  * https://opensource.com/resources/what-docker
+
+</b></details>
+
+<details>
+<summary>What are the advantages of using Docker container?</summary><br><b>
+Explanation:
+
+  * https://dzone.com/articles/top-10-benefits-of-using-docker
+
+</b></details>
+
+<details>
+<summary>Docker RUN vs CMD vs ENTRYPOINT</summary><br><b>
+Explanation:
+
+  * https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
+
+</b></details>
+
+<details>
+<summary>What is the difference between ADD and COPY in Dockerfile?</summary><br><b>
+Explanation:
+  * https://dev.to/lasatadevi/docker-cmd-vs-entrypoint-34e0
+</b></details>
+
+<details>
+<summary>What is Docker registry?</summary><br><b>
+Explanation:
+
+  Storage for docker images https://docs.docker.com/registry/
+
+</b></details>
+
+<details>
+<summary>What is Docker volume?</summary><br><b>
+Explanation:
+
+  * https://docs.docker.com/storage/volumes/
+
+</b></details>
+
+<details>
+<summary>What is docker namespaces?</summary><br><b>
+Explanation:
+
+  * https://success.docker.com/article/introduction-to-user-namespaces-in-docker-engine
+
+</b></details>
+
+<details>
+<summary>Docker and OCI</summary><br><b>
+Explanation:
+
+  * https://www.padok.fr/en/blog/container-docker-oci
+
+</b></details>
+
+<details>
+<summary>What is docker multistage build? Create one example</summary><br><b>
+Explanation:
+
+  * https://dev.to/brpaz/using-docker-multi-stage-builds-during-development-35bc
+
+</b></details>
+
+## Kubernetes
+
+<details>
+<summary>Why we need container orchestration?</summary><br><b>
+Explanation:
+
+  * https://opensource.com/life/16/9/containing-container-chaos-kubernetes
+</b></details>
+
+<details>
+<summary>What is kubernetes?</summary><br><b>
+Explanation:
+  TODO
+</b></details>
+
+<details>
+<summary>What are the features of Kubernetes?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+  * Kubernetes in 5 minutes https://www.youtube.com/watch?v=PH-2FfFD2PU
+</b></details>
+
+<details>
+<summary>What is POD?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/concepts/workloads/pods/pod/
+</b></details>
+
+<details>
+<summary>What is kubelet?</summary><br><b>
+Explanation:
+  * Kubelet - agent on a kubernetes cluster’s node that takes care of all activity on that node
+  * https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/
+</b></details>
+
+<details>
+<summary>What is kubectl?</summary><br><b>
+Explanation:
+
+  * https://kubernetes.io/docs/reference/kubectl/overview/
+</b></details>
+
+<details>
+<summary>What is CNI?</summary><br><b>
+Explanation:
+
+  * https://www.dasblinkenlichten.com/understanding-cni-container-networking-interface/
+</b></details>
+
+<details>
+<summary>What is headless service?</summary><br><b>
+Explanation:
+
+  * https://dev.to/kaoskater08/building-a-headless-service-in-kubernetes-3bk8
+</b></details>
+
+<details>
+<summary>What are the units of CPU and memory in POD definition?</summary><br><b>
+Explanation:
+
+  * CPU is in milicores and memory in bytes
+  * https://www.noqcks.io/notes/2018/02/03/understanding-kubernetes-resources/
+</b></details>
+
+<details>
+<summary>How to deploy stateful application in Kubernetes?</summary><br><b>
+Explanation:
+
+  * https://cloud.google.com/kubernetes-engine/docs/how-to/stateful-apps
+  * https://kubernetes.io/docs/tasks/run-application/run-replicated-stateful-application/
+</b></details>
+
+<details>
+<summary>How to expose Kubernetes service?</summary><br><b>
+Explanation:
+  * https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
+</b></details>
+
+ <details>
+<summary>Kubernetes deployments strategies: blue-green, canary, rolling</summary><br><b>
+Explanation:
+  * https://traefik.io/glossary/kubernetes-deployment-strategies-blue-green-canary/
+</b></details>
+
+<details>
+<summary>Kubernetes etcd. How to backup etcd.</summary><br><b>
+Explanation:
+  * https://medium.com/@mehmetodabashi/backup-and-restore-etcd-cluster-on-kubernetes-93c19b1c070
+  * https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/
+</b></details>
+
+<details>
+<summary>Custom Resource Definitions (CRD)</summary><br><b>
+Explanation:
+  * https://spacelift.io/blog/kubernetes-crd
+  * https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/
+</b></details>
+
+<details>
+<summary>NodePort vs ClusterIP</summary><br><b>
+Explanation:
+  * https://edgedelta.com/company/blog/kubernetes-services-types
+  * https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
+</b></details>
 
 ## DEVOPS
+
+### 12 Factors App
+
+<details>
+<summary>What is 12 Factor App methodology?</summary><br><b>
+Explanation:
+
+  The 12 Factor App is a methodology for building software-as-a-service applications created by developers at Heroku. It provides best practices for building modern, scalable, maintainable applications.
+
+  * https://12factor.net/
+</b></details>
+
+<details>
+<summary>What are the 12 factors?</summary><br><b>
+Explanation:
+
+  1. **Codebase** - One codebase tracked in version control, many deploys
+  2. **Dependencies** - Explicitly declare and isolate dependencies
+  3. **Config** - Store config in the environment
+  4. **Backing Services** - Treat backing services as attached resources
+  5. **Build, Release, Run** - Strictly separate build and run stages
+  6. **Processes** - Execute the app as one or more stateless processes
+  7. **Port Binding** - Export services via port binding
+  8. **Concurrency** - Scale out via the process model
+  9. **Disposability** - Maximize robustness with fast startup and graceful shutdown
+  10. **Dev/Prod Parity** - Keep development, staging, and production as similar as possible
+  11. **Logs** - Treat logs as event streams
+  12. **Admin Processes** - Run admin/management tasks as one-off processes
+
+  * https://12factor.net/
+</b></details>
+
+<details>
+<summary>Why is 12 Factor App important for DevOps?</summary><br><b>
+Explanation:
+
+  The 12 Factor methodology aligns perfectly with DevOps principles:
+  * Enables continuous deployment and delivery
+  * Makes applications cloud-native and container-ready
+  * Ensures portability between environments
+  * Facilitates horizontal scaling
+  * Improves maintainability and reduces technical debt
+  * Supports automation and infrastructure as code
+
+  * https://www.redhat.com/en/topics/cloud-native-apps/what-are-cloud-native-apps
+</b></details>
+
+<details>
+<summary>Explain Factor III: Config - Store config in the environment</summary><br><b>
+Explanation:
+
+  Applications should store configuration in environment variables, not in code. This includes:
+  * Database credentials
+  * API keys and secrets
+  * Hostnames for external services
+  * Per-deploy values
+
+  Benefits:
+  * Easy to change configuration without changing code
+  * Configuration is not accidentally committed to version control
+  * Works well with containers and orchestration systems
+
+  * https://12factor.net/config
+</b></details>
+
+<details>
+<summary>Explain Factor VI: Processes - Execute the app as stateless processes</summary><br><b>
+Explanation:
+
+  Applications should be stateless and share-nothing. Any data that needs to persist must be stored in a stateful backing service (database, cache).
+
+  Benefits:
+  * Enables horizontal scaling
+  * Makes applications resilient to failures
+  * Simplifies deployment and rollback
+  * Works well with container orchestration (Kubernetes)
+
+  * https://12factor.net/processes
+</b></details>
+
+<details>
+<summary>Explain Factor X: Dev/Prod Parity - Keep environments similar</summary><br><b>
+Explanation:
+
+  Keep development, staging, and production environments as similar as possible:
+  * **Time gap** - Deploy code quickly (hours, not weeks)
+  * **Personnel gap** - Developers deploy their own code
+  * **Tools gap** - Use same tools/services in all environments
+
+  Benefits:
+  * Reduces bugs from environment differences
+  * Enables continuous deployment
+  * Improves developer confidence
+  * Containers and IaC help achieve this
+
+  * https://12factor.net/dev-prod-parity
+</b></details>
+
+<details>
+<summary>Explain Factor XI: Logs - Treat logs as event streams</summary><br><b>
+Explanation:
+
+  Applications should not manage log files. Instead, write all logs to stdout as a stream of events.
+
+  Benefits:
+  * Simplifies application code
+  * Enables centralized log aggregation (ELK, Splunk)
+  * Works well with container orchestration
+  * Logs can be routed to multiple destinations
+
+  Tools: Fluentd, Logstash, CloudWatch, Datadog
+
+  * https://12factor.net/logs
+</b></details>
+
+<details>
+<summary>How do containers and Kubernetes support 12 Factor App?</summary><br><b>
+Explanation:
+
+  Containers and Kubernetes are perfect for 12 Factor Apps:
+  * **Codebase** - Dockerfile in Git repository
+  * **Dependencies** - Isolated in container image
+  * **Config** - ConfigMaps and Secrets
+  * **Backing Services** - Services and external resources
+  * **Build/Release/Run** - CI/CD pipelines with container registries
+  * **Processes** - Pods are ephemeral and stateless
+  * **Port Binding** - Services expose ports
+  * **Concurrency** - Horizontal Pod Autoscaler
+  * **Disposability** - Quick startup, graceful shutdown
+  * **Dev/Prod Parity** - Same container in all environments
+  * **Logs** - Container logs to stdout
+  * **Admin Processes** - Jobs and CronJobs
+
+  * https://kubernetes.io/docs/concepts/
+</b></details>
 
 ### Config management
 
@@ -686,62 +1015,10 @@ Explanation:
 </b></details>
 
 <details>
-<summary>Docker RUN vs CMD vs ENTRYPOINT</summary><br><b>
-Explanation:
-
-  * https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/
-</b></details>
-
-<details>
-<summary>What is the difference between ADD and COPY in Dockerfile?</summary><br><b>
-Explanation:
-
-  * https://dev.to/lasatadevi/docker-cmd-vs-entrypoint-34e0
-</b></details>
-
-<details>
-<summary>What is Docker registry?</summary><br><b>
-Explanation:
-
-  * https://docs.docker.com/registry/
-  * Storage for docker images
-</b></details>
-
-<details>
-<summary>What is Docker volume?</summary><br><b>
-Explanation:
-
-  * https://docs.docker.com/storage/volumes/
-</b></details>
-
-<details>
-<summary>What is docker namespaces?</summary><br><b>
-Explanation:
-
-  * https://success.docker.com/article/introduction-to-user-namespaces-in-docker-engine
-</b></details>
-
-<details>
-<summary>History of containers (LXC, chroot)</summary><br><b>
-Explanation:
-
-  * https://www.aquasec.com/blog/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016/
-  * https://linuxcontainers.org/lxc/introduction/
-</b></details>
-
-<details>
 <summary>What is Kubernetes?</summary><br><b>
 Explanation:
 
   * https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
-  * Kubernetes in 5 minutes: https://www.youtube.com/watch?v=PH-2FfFD2PU
-</b></details>
-
-<details>
-<summary>Why we need container orchestration?</summary><br><b>
-Explanation:
-
-  * https://opensource.com/life/16/9/containing-container-chaos-kubernetes
 </b></details>
 
 <details>
@@ -832,82 +1109,6 @@ Explanation:
 Explanation:
 
   * https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
-</b></details>
-
-<details>
-<summary>What is kubelet?</summary><br><b>
-Explanation:
-
-  * Kubelet - agent on a kubernetes cluster's node that takes care of all activity on that node
-  * https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/
-</b></details>
-
-<details>
-<summary>What is kubectl?</summary><br><b>
-Explanation:
-
-  * https://kubernetes.io/docs/reference/kubectl/overview/
-</b></details>
-
-<details>
-<summary>What is CNI (Container Network Interface)?</summary><br><b>
-Explanation:
-
-  * https://www.dasblinkenlichten.com/understanding-cni-container-networking-interface/
-</b></details>
-
-<details>
-<summary>What is headless service?</summary><br><b>
-Explanation:
-
-  * https://dev.to/kaoskater08/building-a-headless-service-in-kubernetes-3bk8
-</b></details>
-
-<details>
-<summary>What are the units of CPU and memory in POD definition?</summary><br><b>
-Explanation:
-
-  * CPU is in milicores and memory in bytes
-  * https://www.noqcks.io/notes/2018/02/03/understanding-kubernetes-resources/
-</b></details>
-
-<details>
-<summary>How to deploy stateful application in Kubernetes?</summary><br><b>
-Explanation:
-
-  * https://cloud.google.com/kubernetes-engine/docs/how-to/stateful-apps
-  * https://kubernetes.io/docs/tasks/run-application/run-replicated-stateful-application/
-</b></details>
-
-<details>
-<summary>Kubernetes deployment strategies: blue-green, canary, rolling</summary><br><b>
-Explanation:
-
-  * https://traefik.io/glossary/kubernetes-deployment-strategies-blue-green-canary/
-</b></details>
-
-<details>
-<summary>Kubernetes etcd - how to backup etcd</summary><br><b>
-Explanation:
-
-  * https://medium.com/@mehmetodabashi/backup-and-restore-etcd-cluster-on-kubernetes-93c19b1c070
-  * https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/
-</b></details>
-
-<details>
-<summary>Custom Resource Definitions (CRD)</summary><br><b>
-Explanation:
-
-  * https://spacelift.io/blog/kubernetes-crd
-  * https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/
-</b></details>
-
-<details>
-<summary>NodePort vs ClusterIP</summary><br><b>
-Explanation:
-
-  * https://edgedelta.com/company/blog/kubernetes-services-types
-  * https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
 </b></details>
 
 ### Monitoring & Logging
@@ -1205,9 +1406,7 @@ Explanation:
 
 
 
-## Clouds
-
-### Cloud Computing Fundamentals
+### Clouds
 
 <details>
 <summary>What is PaaS, SaaS, IaaS?</summary><br><b>
@@ -1215,6 +1414,7 @@ Explanation:
 
  * https://www.ibm.com/cloud/learn/iaas-paas-saas
 </b></details>
+
 
 <details>
 <summary>What is private cloud?</summary><br><b>
@@ -1228,21 +1428,7 @@ Explanation:
 Explanation:
 
  * https://azure.microsoft.com/en-us/overview/what-is-a-public-cloud/
- * examples: AWS, GCP, DigitalOcean, Azure
-</b></details>
-
-<details>
-<summary>What is hybrid cloud?</summary><br><b>
-Explanation:
-
- * https://www.ibm.com/cloud/learn/hybrid-cloud
-</b></details>
-
-<details>
-<summary>What is multi-cloud?</summary><br><b>
-Explanation:
-
- * https://www.redhat.com/en/topics/cloud-computing/what-is-multicloud
+ * examples: AWS, GCP, DegitalOcean, Azure
 </b></details>
 
 <details>
@@ -1253,507 +1439,34 @@ Explanation:
 </b></details>
 
 <details>
-<summary>What is serverless computing?</summary><br><b>
+<summary>What is serverless service?</summary><br><b>
 Explanation:
 
  * https://en.wikipedia.org/wiki/Serverless_computing
- * https://aws.amazon.com/serverless/
 </b></details>
 
 <details>
-<summary>What is cloud-native?</summary><br><b>
+<summary>AWS tutorials</summary><br><b>
 Explanation:
 
- * https://www.cncf.io/about/faq/
-</b></details>
-
-<details>
-<summary>What is elasticity in cloud computing?</summary><br><b>
-Explanation:
-
- * Ability to scale resources up or down based on demand
- * https://www.ibm.com/cloud/learn/benefits-of-cloud-computing
-</b></details>
-
-<details>
-<summary>What is cloud availability zone?</summary><br><b>
-Explanation:
-
- * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
-</b></details>
-
-<details>
-<summary>What is a cloud region?</summary><br><b>
-Explanation:
-
- * Geographic location where cloud provider has data centers
- * https://cloud.google.com/compute/docs/regions-zones
-</b></details>
-
-### AWS (Amazon Web Services)
-
-<details>
-<summary>AWS tutorials and resources</summary><br><b>
-Explanation:
-
- * https://aws.amazon.com/getting-started/
- * https://docs.aws.amazon.com/
  * https://medium.com/javarevisited/5-best-aws-courses-for-beginners-and-experienced-developers-to-learn-in-2021-563212409fbd
+ * https://docs.aws.amazon.com/
 </b></details>
 
 <details>
-<summary>What is EC2?</summary><br><b>
+<summary>Google Cloud tutorials</summary><br><b>
 Explanation:
 
- * Elastic Compute Cloud - virtual servers in the cloud
- * https://aws.amazon.com/ec2/
-</b></details>
-
-<details>
-<summary>What is S3?</summary><br><b>
-Explanation:
-
- * Simple Storage Service - object storage
- * https://aws.amazon.com/s3/
-</b></details>
-
-<details>
-<summary>What is VPC?</summary><br><b>
-Explanation:
-
- * Virtual Private Cloud - isolated network in AWS
- * https://aws.amazon.com/vpc/
-</b></details>
-
-<details>
-<summary>What is AWS Lambda?</summary><br><b>
-Explanation:
-
- * Serverless compute service
- * https://aws.amazon.com/lambda/
-</b></details>
-
-<details>
-<summary>What is RDS?</summary><br><b>
-Explanation:
-
- * Relational Database Service
- * https://aws.amazon.com/rds/
-</b></details>
-
-<details>
-<summary>What is ECS and EKS?</summary><br><b>
-Explanation:
-
- * ECS - Elastic Container Service
- * EKS - Elastic Kubernetes Service
- * https://aws.amazon.com/ecs/
- * https://aws.amazon.com/eks/
-</b></details>
-
-<details>
-<summary>What is CloudFormation?</summary><br><b>
-Explanation:
-
- * Infrastructure as Code service
- * https://aws.amazon.com/cloudformation/
- * https://www.simplilearn.com/tutorials/aws-tutorial/aws-cloudformation
-</b></details>
-
-<details>
-<summary>What is IAM in AWS?</summary><br><b>
-Explanation:
-
- * Identity and Access Management
- * https://aws.amazon.com/iam/
-</b></details>
-
-<details>
-<summary>What is CloudWatch?</summary><br><b>
-Explanation:
-
- * Monitoring and observability service
- * https://aws.amazon.com/cloudwatch/
-</b></details>
-
-<details>
-<summary>What is Route53?</summary><br><b>
-Explanation:
-
- * DNS web service
- * https://aws.amazon.com/route53/
-</b></details>
-
-<details>
-<summary>What is Elastic Load Balancer (ELB)?</summary><br><b>
-Explanation:
-
- * Distributes incoming traffic across multiple targets
- * ALB, NLB, CLB differences
- * https://aws.amazon.com/elasticloadbalancing/
-</b></details>
-
-<details>
-<summary>What is Auto Scaling in AWS?</summary><br><b>
-Explanation:
-
- * Automatically adjusts compute capacity
- * https://aws.amazon.com/autoscaling/
-</b></details>
-
-<details>
-<summary>What is CloudFront?</summary><br><b>
-Explanation:
-
- * Content Delivery Network (CDN)
- * https://aws.amazon.com/cloudfront/
-</b></details>
-
-<details>
-<summary>What is SNS and SQS?</summary><br><b>
-Explanation:
-
- * SNS - Simple Notification Service
- * SQS - Simple Queue Service
- * https://aws.amazon.com/sns/
- * https://aws.amazon.com/sqs/
-</b></details>
-
-<details>
-<summary>What is AWS KMS?</summary><br><b>
-Explanation:
-
- * Key Management Service - encryption key management
- * https://aws.amazon.com/kms/
-</b></details>
-
-<details>
-<summary>What is AWS Secrets Manager?</summary><br><b>
-Explanation:
-
- * Manage, retrieve, and rotate credentials
- * https://aws.amazon.com/secrets-manager/
-</b></details>
-
-<details>
-<summary>What is DynamoDB?</summary><br><b>
-Explanation:
-
- * NoSQL database service
- * https://aws.amazon.com/dynamodb/
- * https://www.dynamodbguide.com/what-is-dynamo-db/
-</b></details>
-
-<details>
-<summary>What is ElastiCache?</summary><br><b>
-Explanation:
-
- * In-memory caching service (Redis, Memcached)
- * https://aws.amazon.com/elasticache/
-</b></details>
-
-<details>
-<summary>What is AWS Step Functions?</summary><br><b>
-Explanation:
-
- * Serverless workflow orchestration
- * https://aws.amazon.com/step-functions/
-</b></details>
-
-<details>
-<summary>What is AWS Organizations?</summary><br><b>
-Explanation:
-
- * Centrally manage multiple AWS accounts
- * https://aws.amazon.com/organizations/
-</b></details>
-
-### Azure (Microsoft Azure)
-
-<details>
-<summary>Azure tutorials and resources</summary><br><b>
-Explanation:
-
- * https://docs.microsoft.com/en-us/learn/azure/
- * https://azure.microsoft.com/en-us/get-started/
-</b></details>
-
-<details>
-<summary>What is Azure Virtual Machines?</summary><br><b>
-Explanation:
-
- * IaaS compute service
- * https://azure.microsoft.com/en-us/services/virtual-machines/
-</b></details>
-
-<details>
-<summary>What is Azure App Service?</summary><br><b>
-Explanation:
-
- * PaaS for web apps
- * https://azure.microsoft.com/en-us/services/app-service/
-</b></details>
-
-<details>
-<summary>What is Azure Blob Storage?</summary><br><b>
-Explanation:
-
- * Object storage solution
- * https://azure.microsoft.com/en-us/services/storage/blobs/
-</b></details>
-
-<details>
-<summary>What is Azure Functions?</summary><br><b>
-Explanation:
-
- * Serverless compute service
- * https://azure.microsoft.com/en-us/services/functions/
-</b></details>
-
-<details>
-<summary>What is Azure AKS (Kubernetes Service)?</summary><br><b>
-Explanation:
-
- * Managed Kubernetes service
- * https://azure.microsoft.com/en-us/services/kubernetes-service/
-</b></details>
-
-<details>
-<summary>What is Azure Resource Manager (ARM)?</summary><br><b>
-Explanation:
-
- * Deployment and management service
- * https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview
-</b></details>
-
-<details>
-<summary>What is Azure Active Directory?</summary><br><b>
-Explanation:
-
- * Identity and access management
- * https://azure.microsoft.com/en-us/services/active-directory/
-</b></details>
-
-<details>
-<summary>What is Azure DevOps?</summary><br><b>
-Explanation:
-
- * CI/CD and collaboration tools
- * https://azure.microsoft.com/en-us/services/devops/
-</b></details>
-
-<details>
-<summary>What is Azure Monitor?</summary><br><b>
-Explanation:
-
- * Monitoring and diagnostics
- * https://azure.microsoft.com/en-us/services/monitor/
-</b></details>
-
-<details>
-<summary>What is Azure SQL Database?</summary><br><b>
-Explanation:
-
- * Managed relational database
- * https://azure.microsoft.com/en-us/services/sql-database/
-</b></details>
-
-<details>
-<summary>What is Azure Cosmos DB?</summary><br><b>
-Explanation:
-
- * Globally distributed NoSQL database
- * https://azure.microsoft.com/en-us/services/cosmos-db/
-</b></details>
-
-<details>
-<summary>What is Azure Key Vault?</summary><br><b>
-Explanation:
-
- * Secrets management service
- * https://azure.microsoft.com/en-us/services/key-vault/
-</b></details>
-
-<details>
-<summary>What is Azure Load Balancer?</summary><br><b>
-Explanation:
-
- * Layer 4 load balancing
- * https://azure.microsoft.com/en-us/services/load-balancer/
-</b></details>
-
-<details>
-<summary>What is Azure CDN?</summary><br><b>
-Explanation:
-
- * Content Delivery Network
- * https://azure.microsoft.com/en-us/services/cdn/
-</b></details>
-
-### GCP (Google Cloud Platform)
-
-<details>
-<summary>GCP tutorials and resources</summary><br><b>
-Explanation:
-
- * https://cloud.google.com/training
  * https://www.udemy.com/topic/google-cloud/
- * https://cloud.google.com/docs
+ * https://linuxacademy.com/course/google-cloud-data-engineer/
 </b></details>
 
 <details>
-<summary>What is Compute Engine?</summary><br><b>
+<summary>Openstack tutorials</summary><br><b>
 Explanation:
 
- * Virtual machines in GCP
- * https://cloud.google.com/compute
-</b></details>
-
-<details>
-<summary>What is Google Cloud Storage?</summary><br><b>
-Explanation:
-
- * Object storage service
- * https://cloud.google.com/storage
-</b></details>
-
-<details>
-<summary>What is Cloud Functions?</summary><br><b>
-Explanation:
-
- * Serverless execution environment
- * https://cloud.google.com/functions
-</b></details>
-
-<details>
-<summary>What is GKE (Google Kubernetes Engine)?</summary><br><b>
-Explanation:
-
- * Managed Kubernetes service
- * https://cloud.google.com/kubernetes-engine
-</b></details>
-
-<details>
-<summary>What is Cloud Run?</summary><br><b>
-Explanation:
-
- * Fully managed serverless platform for containers
- * https://cloud.google.com/run
-</b></details>
-
-<details>
-<summary>What is BigQuery?</summary><br><b>
-Explanation:
-
- * Serverless data warehouse
- * https://cloud.google.com/bigquery
-</b></details>
-
-<details>
-<summary>What is Cloud SQL?</summary><br><b>
-Explanation:
-
- * Managed relational database
- * https://cloud.google.com/sql
-</b></details>
-
-<details>
-<summary>What is Cloud Spanner?</summary><br><b>
-Explanation:
-
- * Horizontally scalable relational database
- * https://cloud.google.com/spanner
-</b></details>
-
-<details>
-<summary>What is Firestore?</summary><br><b>
-Explanation:
-
- * NoSQL document database
- * https://cloud.google.com/firestore
-</b></details>
-
-<details>
-<summary>What is Cloud Pub/Sub?</summary><br><b>
-Explanation:
-
- * Messaging and event ingestion
- * https://cloud.google.com/pubsub
-</b></details>
-
-<details>
-<summary>What is Cloud IAM?</summary><br><b>
-Explanation:
-
- * Identity and Access Management
- * https://cloud.google.com/iam
-</b></details>
-
-<details>
-<summary>What is Cloud Monitoring (formerly Stackdriver)?</summary><br><b>
-Explanation:
-
- * Monitoring, logging, and diagnostics
- * https://cloud.google.com/monitoring
-</b></details>
-
-<details>
-<summary>What is Cloud Load Balancing?</summary><br><b>
-Explanation:
-
- * Distribute traffic across instances
- * https://cloud.google.com/load-balancing
-</b></details>
-
-<details>
-<summary>What is Cloud CDN?</summary><br><b>
-Explanation:
-
- * Content Delivery Network
- * https://cloud.google.com/cdn
-</b></details>
-
-<details>
-<summary>What is VPC in GCP?</summary><br><b>
-Explanation:
-
- * Virtual Private Cloud networking
- * https://cloud.google.com/vpc
-</b></details>
-
-<details>
-<summary>What is Cloud Build?</summary><br><b>
-Explanation:
-
- * CI/CD platform
- * https://cloud.google.com/build
-</b></details>
-
-<details>
-<summary>What is Anthos?</summary><br><b>
-Explanation:
-
- * Hybrid and multi-cloud application platform
- * https://cloud.google.com/anthos
-</b></details>
-
-### Other Cloud Providers
-
-<details>
-<summary>What is DigitalOcean?</summary><br><b>
-Explanation:
-
- * Developer-friendly cloud platform
- * https://www.digitalocean.com/
-</b></details>
-
-<details>
-<summary>OpenStack tutorials</summary><br><b>
-Explanation:
-
- * Open-source cloud computing platform
- * https://www.openstack.org/
- * https://docs.openstack.org/
+  The best resource with Openstack cources is LinuxAcademy
+  https://linuxacademy.com/library/search/openstack/
 </b></details>
 
 ## Books and courses
