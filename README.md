@@ -772,7 +772,8 @@ Explanation:
   * Improves maintainability and reduces technical debt
   * Supports automation and infrastructure as code
 
-  * https://www.redhat.com/en/topics/cloud-native-apps/what-are-cloud-native-apps
+  * https://www.redhat.com/en/topics/cloud-native-apps
+  * https://12factor.net/
 </b></details>
 
 <details>
